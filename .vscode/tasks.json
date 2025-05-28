@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"command": "npm run dev",
+			"group": "test",
+			"isBackground": true,
+			"label": "Serve QYD Website",
+			"problemMatcher": [],
+			"type": "shell"
+		}
+	]
+}

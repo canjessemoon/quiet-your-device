@@ -1,0 +1,31 @@
+<svg width="300" height="400" viewBox="0 0 300 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card Background -->
+  <rect width="300" height="400" rx="12" fill="#DCE8DC"/>
+  
+  <!-- Day Number -->
+  <circle cx="60" cy="60" r="25" fill="#4F6F52"/>
+  <text x="60" y="68" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="bold" fill="white">1</text>
+  
+  <!-- Title -->
+  <text x="150" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#4F6F52">Day 1</text>
+  <text x="150" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="bold" fill="#5D6F77">Phone-Free Morning</text>
+  
+  <!-- Challenge Text -->
+  <foreignObject x="30" y="100" width="240" height="250">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Inter, sans-serif; color: #5D6F77; line-height: 1.6; font-size: 14px;">
+      <p style="margin-bottom: 15px; font-weight: 600;">Today's Challenge:</p>
+      <p style="margin-bottom: 15px;">Keep your phone in another room for the first hour after waking up.</p>
+      
+      <p style="margin-bottom: 10px; font-weight: 600;">Instead, try:</p>
+      <p style="margin-bottom: 8px;">• Stretch or light exercise</p>
+      <p style="margin-bottom: 8px;">• Drink water mindfully</p>
+      <p style="margin-bottom: 8px;">• Write in a journal</p>
+      <p style="margin-bottom: 15px;">• Enjoy your breakfast without distractions</p>
+      
+      <p style="font-style: italic; color: #4F6F52;">"How you start your morning sets the tone for your entire day."</p>
+    </div>
+  </foreignObject>
+  
+  <!-- Footer -->
+  <text x="150" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#A4B2A3">QYD • Quiet Your Device</text>
+</svg>

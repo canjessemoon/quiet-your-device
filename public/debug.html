@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static File Test</title>
+    <style>
+        .test-box {
+            width: 100%;
+            height: 200px;
+            border: 2px solid red;
+            margin: 10px 0;
+        }
+        .test-bg-svg {
+            background-image: url('/next.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }        .test-bg-hero {
+            background-image: url('/images/hero.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Static File Serving Test</h1>
+    
+    <h2>Test: SVG file (should work)</h2>
+    <div class="test-box test-bg-svg"></div>
+    <img src="/next.svg" style="height: 50px;" alt="Next.js logo">
+      <h2>Test: Hero PNG (new image)</h2>
+    <div class="test-box test-bg-hero"></div>
+    <img src="/images/hero.png" style="height: 100px;" alt="Hero image">
+      <h2>Test: QYD Logo (should work)</h2>
+    <img src="/images/qyd-logo.png" style="height: 50px;" alt="QYD Logo Old">
+    
+    <h2>Test: QYD Logo No Background (new)</h2>
+    <img src="/images/qyd-logo-nobackground.png" style="height: 50px;" alt="QYD Logo New">
+</body>
+</html>
