@@ -80,7 +80,7 @@ export default function Resources() {
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-fern mb-3 flex items-center">
-                ⏰ 2. Set One "Phone-Free Hour" a Day
+                ⏰ 2. Set One &ldquo;Phone-Free Hour&rdquo; a Day
               </h3>
               <p className="text-stone text-sm mb-2">
                 <strong>Why it helps:</strong> Rebuilds attention span and calm
@@ -120,15 +120,14 @@ export default function Resources() {
               </h3>
               <p className="text-stone text-sm mb-2">
                 <strong>Why it helps:</strong> Encourages reflection without a glowing screen
-              </p>
-              <p className="text-stone text-sm">
-                <strong>Try:</strong> One-page morning reflection or a "no-phone ideas" journal
+              </p>              <p className="text-stone text-sm">
+                <strong>Try:</strong> One-page morning reflection or a &ldquo;no-phone ideas&rdquo; journal
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-fern mb-3 flex items-center">
-                🧘 6. Try "One-Screen Mornings"
+                🧘 6. Try &ldquo;One-Screen Mornings&rdquo;
               </h3>
               <p className="text-stone text-sm mb-2">
                 <strong>Why it helps:</strong> Prevents digital chaos at the start of your day
@@ -152,7 +151,7 @@ export default function Resources() {
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-fern mb-3 flex items-center">
-                🔔 8. Use a "Do Not Disturb" Schedule
+                🔔 8. Use a &ldquo;Do Not Disturb&rdquo; Schedule
               </h3>
               <p className="text-stone text-sm mb-2">
                 <strong>Why it helps:</strong> Builds healthy boundaries without going offline
@@ -181,7 +180,7 @@ export default function Resources() {
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-fern mb-3 flex items-center">
-                ✋ 10. Create a "Phone-Free Zone" at Home
+                ✋ 10. Create a &ldquo;Phone-Free Zone&rdquo; at Home
               </h3>
               <p className="text-stone text-sm mb-2">
                 <strong>Why it helps:</strong> Designates safe spaces to disconnect

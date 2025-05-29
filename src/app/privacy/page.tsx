@@ -9,9 +9,8 @@ export default function Privacy() {
           </p>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-fern mb-4">1. Introduction</h2>
-            <p className="text-stone leading-relaxed">
-              At QuietYourDevice.com ("QYD", "we", "us"), your privacy matters. This policy explains how we collect, use, and protect your information when you visit our site or interact with our tools and content.
+            <h2 className="text-2xl font-semibold text-fern mb-4">1. Introduction</h2>            <p className="text-stone leading-relaxed">
+              At QuietYourDevice.com (&ldquo;QYD&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;), your privacy matters. This policy explains how we collect, use, and protect your information when you visit our site or interact with our tools and content.
             </p>
           </section>
 
@@ -60,9 +59,8 @@ export default function Privacy() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-fern mb-4">5. Third-Party Links</h2>
-            <p className="text-stone leading-relaxed">
-              We may link to tools like Calm or Forest. We're not responsible for their privacy practices, so please review their policies separately.
+            <h2 className="text-2xl font-semibold text-fern mb-4">5. Third-Party Links</h2>            <p className="text-stone leading-relaxed">
+              We may link to tools like Calm or Forest. We&apos;re not responsible for their privacy practices, so please review their policies separately.
             </p>
           </section>
 

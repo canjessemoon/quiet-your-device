@@ -9,9 +9,8 @@ export default function Terms() {
           </p>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-fern mb-4">1. Acceptance</h2>
-            <p className="text-stone leading-relaxed">
-              By accessing QuietYourDevice.com ("QYD"), you agree to these terms. If you do not agree, please do not use the site.
+            <h2 className="text-2xl font-semibold text-fern mb-4">1. Acceptance</h2>            <p className="text-stone leading-relaxed">
+              By accessing QuietYourDevice.com (&ldquo;QYD&rdquo;), you agree to these terms. If you do not agree, please do not use the site.
             </p>
           </section>
 
@@ -63,9 +62,8 @@ export default function Terms() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-fern mb-4">7. Changes</h2>
-            <p className="text-stone leading-relaxed">
-              We may update these terms from time to time. If we do, we'll update the date at the top of this page.
+            <h2 className="text-2xl font-semibold text-fern mb-4">7. Changes</h2>            <p className="text-stone leading-relaxed">
+              We may update these terms from time to time. If we do, we&apos;ll update the date at the top of this page.
             </p>
           </section>
 

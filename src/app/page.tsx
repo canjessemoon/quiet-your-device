@@ -27,13 +27,12 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-fern text-center mb-12">
             Why It Matters
           </h2>
-          <div className="text-center max-w-3xl mx-auto">
-            <p className="text-lg text-stone mb-8 leading-relaxed">
-              We live in a world of constant notifications, endless feeds, and always-on communication. It's easy to feel overwhelmed, anxious, or simply burnt out from being "on" all the time. The average person taps their phone over 2,600 times per day — and most of us don't even realize it.
+          <div className="text-center max-w-3xl mx-auto">            <p className="text-lg text-stone mb-8 leading-relaxed">
+              We live in a world of constant notifications, endless feeds, and always-on communication. It&apos;s easy to feel overwhelmed, anxious, or simply burnt out from being &ldquo;on&rdquo; all the time. The average person taps their phone over 2,600 times per day — and most of us don&apos;t even realize it.
             </p>
             
             <div className="text-left bg-white p-8 rounded-xl shadow-sm mb-8">
-              <p className="text-lg text-stone mb-6">If you've ever:</p>
+              <p className="text-lg text-stone mb-6">If you&apos;ve ever:</p>
               <ul className="space-y-4 text-stone">
                 <li className="flex items-start">
                   <span className="text-fern mr-3">•</span>
@@ -46,15 +45,14 @@ export default function Home() {
                 <li className="flex items-start">
                   <span className="text-fern mr-3">•</span>
                   Opened apps on autopilot
-                </li>
-                <li className="flex items-start">
+                </li>                <li className="flex items-start">
                   <span className="text-fern mr-3">•</span>
-                  Felt anxious when your phone isn't nearby
+                  Felt anxious when your phone isn&apos;t nearby
                 </li>
               </ul>
             </div>
             
-            <p className="text-xl text-fern font-semibold">...you're not alone.</p>
+            <p className="text-xl text-fern font-semibold">...you&apos;re not alone.</p>
           </div>
         </div>
       </section>
