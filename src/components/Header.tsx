@@ -17,8 +17,7 @@ export default function Header() {
               height={78}
               className="h-18 w-auto"
             />
-          </Link>
-            {/* Desktop Navigation */}
+          </Link>          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <Link 
               href="/" 
@@ -31,6 +30,12 @@ export default function Header() {
               className="text-stone hover:text-fern transition-colors duration-200 font-medium"
             >
               Resources
+            </Link>
+            <Link 
+              href="/blog" 
+              className="text-stone hover:text-fern transition-colors duration-200 font-medium"
+            >
+              Blog
             </Link>
             <Link 
               href="/challenge" 
@@ -78,13 +83,19 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </Link>
-              <Link 
+              </Link>              <Link 
                 href="/resources" 
                 className="text-stone hover:text-fern transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Resources
+              </Link>
+              <Link 
+                href="/blog" 
+                className="text-stone hover:text-fern transition-colors duration-200 font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link 
                 href="/challenge" 
