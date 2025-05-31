@@ -18,21 +18,28 @@ interface BlogPostProps {
 
 // This would typically come from a CMS or database
 const getBlogPost = (id: string): BlogPost | null => {
-  const posts: Record<string, BlogPost> = {
-    '1': {
+  const posts: Record<string, BlogPost> = {    '1': {
       id: 1,
-      title: "The Hidden Cost of Notification Anxiety",
+      title: "Your Phone's Buzz Is Stressing You Out (And What to Do About It)",
       content: `
-        <p>Every ping, buzz, and flash creates a micro-stress response in our nervous system. Most of us don't realize how these constant interruptions are affecting our mental and physical well-being.</p>
+        <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+          <h3 style="color: #4F6F52; margin-bottom: 10px;">TL;DR</h3>
+          <p>Notifications aren&apos;t just distractions—they&apos;re micro-stressors. Each ping triggers a cortisol release, and with 60–80 notifications daily, that&apos;s a constant state of alertness. <a href="https://gloriamark.com/" target="_blank" rel="noopener noreferrer" style="color: #4F6F52; text-decoration: underline;">Dr. Gloria Mark&apos;s</a> research reveals it takes over 23 minutes to regain focus after an interruption. This perpetual cycle hampers productivity and well-being. Combat this by auditing your notifications, establishing phone-free zones, and embracing mindful pauses. Reclaim your attention and serenity.</p>
+        </div>
+
+        <p style="margin-bottom: 20px;">Every ping, buzz, and flash creates a micro-stress response in our nervous system. Most of us don&apos;t realize how these constant interruptions are affecting our mental and physical well-being.</p>
         
-        <h2>The Science Behind Notification Stress</h2>
-        <p>When your phone buzzes, your brain releases cortisol - the same hormone triggered during a fight-or-flight response. While one notification might seem harmless, the average person receives 60-80 notifications per day. That's 60-80 tiny stress responses, every single day.</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px;">The Science Behind Notification Stress</h2>
         
-        <p>Dr. Gloria Mark's research at UC Irvine found that it takes an average of 23 minutes and 15 seconds to fully refocus after an interruption. With notifications coming every few minutes, we're never truly focused, never truly present.</p>
+        <p style="margin-bottom: 20px;">When your phone buzzes, your brain releases cortisol - the same hormone triggered during a fight-or-flight response. While one notification might seem harmless, the average person receives 60-80 notifications per day. That&apos;s 60-80 tiny stress responses, every single day.</p>
         
-        <h2>The Physical Impact</h2>
-        <p>This constant state of partial attention doesn't just affect our productivity - it affects our bodies:</p>
-        <ul>
+        <p style="margin-bottom: 20px;"><a href="https://gloriamark.com/" target="_blank" rel="noopener noreferrer" style="color: #4F6F52; text-decoration: underline;">Dr. Gloria Mark&apos;s</a> research at UC Irvine found that it takes an average of 23 minutes and 15 seconds to fully refocus after an interruption. With notifications coming every few minutes, we&apos;re never truly focused, never truly present.</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px;">The Physical Impact</h2>
+        
+        <p style="margin-bottom: 20px;">This constant state of partial attention doesn&apos;t just affect our productivity - it affects our bodies:</p>
+        
+        <ul style="margin-bottom: 20px;">
           <li>Elevated cortisol levels throughout the day</li>
           <li>Disrupted sleep patterns</li>
           <li>Increased anxiety and irritability</li>
@@ -40,27 +47,39 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Difficulty with deep, restorative rest</li>
         </ul>
         
-        <h2>Breaking the Cycle</h2>
-        <p>The good news? You can break free from notification anxiety with some simple changes:</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px;">Breaking the Cycle</h2>
         
-        <h3>1. Audit Your Notifications</h3>
-        <p>Go through every app on your phone. Ask yourself: "Does this notification serve me, or do I serve it?" Turn off everything that isn't truly urgent.</p>
+        <p style="margin-bottom: 20px;">The good news? You can break free from notification anxiety with some simple changes:</p>
         
-        <h3>2. Create Notification-Free Zones</h3>
-        <p>Designate specific times and places as notification-free. Start with one hour before bed and the first hour after waking up.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">1. Audit Your Notifications</h3>
         
-        <h3>3. Use Do Not Disturb Strategically</h3>
-        <p>Schedule Do Not Disturb during your most important work, rest, and connection times. Allow only true emergencies to break through.</p>
+        <p style="margin-bottom: 20px;">Go through every app on your phone. Ask yourself: &ldquo;Is this notification helping me or distracting me?&rdquo; Turn off everything that isn&apos;t truly urgent.</p>
         
-        <h3>4. Practice the Pause</h3>
-        <p>When you feel the urge to check your phone, pause for three breaths. Ask yourself: "What am I really looking for right now?"</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">2. Create Notification-Free Zones</h3>
         
-        <h2>The Peace on the Other Side</h2>
-        <p>When you reduce notification anxiety, you're not just eliminating stress - you're creating space for presence, creativity, and genuine connection. You're giving your nervous system permission to rest and your mind permission to wander.</p>
+        <p style="margin-bottom: 20px;">Designate specific times and places as notification-free. Start with one hour before bed and the first hour after waking up.</p>
         
-        <p>Start small. Pick one app today and turn off its notifications. Notice how it feels to not be interrupted by it. Then tomorrow, pick another one.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">3. Use Do Not Disturb Strategically</h3>
         
-        <p>Your peace of mind is worth more than staying instantly connected to every digital demand on your attention.</p>
+        <p style="margin-bottom: 20px;">Schedule Do Not Disturb during your most important work, rest, and connection times. Allow only true emergencies to break through.</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">4. Practice the Pause</h3>
+        
+        <p style="margin-bottom: 20px;">When you feel the urge to check your phone, pause for three breaths. Ask yourself: &ldquo;What am I really looking for right now?&rdquo;</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px;">The Peace on the Other Side</h2>
+        
+        <p style="margin-bottom: 20px;">When you reduce notification anxiety, you&apos;re not just eliminating stress - you&apos;re creating space for presence, creativity, and genuine connection. You&apos;re giving your nervous system permission to rest and your mind permission to wander.</p>
+        
+        <p style="margin-bottom: 20px;">Start small. Pick one app today and turn off its notifications. Notice how it feels to not be interrupted by it. Then tomorrow, pick another one.</p>
+        
+        <p style="margin-bottom: 30px;">Your peace of mind is worth more than staying instantly connected to every digital demand on your attention.</p>
+
+        <h2 style="margin-top: 30px; margin-bottom: 20px;">About Dr. Gloria Mark</h2>
+        
+        <p style="margin-bottom: 20px;">Dr. Gloria Mark is a Professor of Informatics at the University of California, Irvine, and a leading researcher in the field of digital distraction, attention, and the psychology of technology use. Her work explores how our interactions with digital devices impact focus, stress, and well-being. She is the author of the acclaimed book Attention Span, and her research has been featured in major outlets such as The New York Times, The Atlantic, and NPR.</p>
+        
+        <p style="margin-bottom: 20px;">🔗 <a href="https://gloriamark.com/" target="_blank" rel="noopener noreferrer" style="color: #4F6F52; text-decoration: underline;">gloriamark.com</a></p>
       `,
       author: "QYD Team",
       date: "May 28, 2025",
