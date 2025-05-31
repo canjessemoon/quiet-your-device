@@ -25,17 +25,15 @@ const getBlogPost = (id: string): BlogPost | null => {
         <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
           <h3 style="color: #4F6F52; margin-bottom: 10px;">TL;DR</h3>
           <p>Notifications aren&apos;t just distractions—they&apos;re micro-stressors. Each ping triggers a cortisol release, and with 60–80 notifications daily, that&apos;s a constant state of alertness. <a href="https://gloriamark.com/" target="_blank" rel="noopener noreferrer" style="color: #4F6F52; text-decoration: underline;">Dr. Gloria Mark&apos;s</a> research reveals it takes over 23 minutes to regain focus after an interruption. This perpetual cycle hampers productivity and well-being. Combat this by auditing your notifications, establishing phone-free zones, and embracing mindful pauses. Reclaim your attention and serenity.</p>
-        </div>
-
-        <p style="margin-bottom: 20px;">Every ping, buzz, and flash creates a micro-stress response in our nervous system. Most of us don&apos;t realize how these constant interruptions are affecting our mental and physical well-being.</p>
+        </div>        <p style="margin-bottom: 20px;">Every ping, buzz, and flash creates a micro-stress response in our nervous system. Most of us don&apos;t realize how these constant interruptions are affecting our mental and physical well-being.</p>
         
-        <h2 style="margin-top: 30px; margin-bottom: 20px;">The Science Behind Notification Stress</h2>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Science Behind Notification Stress</strong></h2>
         
         <p style="margin-bottom: 20px;">When your phone buzzes, your brain releases cortisol - the same hormone triggered during a fight-or-flight response. While one notification might seem harmless, the average person receives 60-80 notifications per day. That&apos;s 60-80 tiny stress responses, every single day.</p>
         
         <p style="margin-bottom: 20px;"><a href="https://gloriamark.com/" target="_blank" rel="noopener noreferrer" style="color: #4F6F52; text-decoration: underline;">Dr. Gloria Mark&apos;s</a> research at UC Irvine found that it takes an average of 23 minutes and 15 seconds to fully refocus after an interruption. With notifications coming every few minutes, we&apos;re never truly focused, never truly present.</p>
         
-        <h2 style="margin-top: 30px; margin-bottom: 20px;">The Physical Impact</h2>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Physical Impact</strong></h2>
         
         <p style="margin-bottom: 20px;">This constant state of partial attention doesn&apos;t just affect our productivity - it affects our bodies:</p>
         
@@ -44,10 +42,9 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Disrupted sleep patterns</li>
           <li>Increased anxiety and irritability</li>
           <li>Weakened immune system</li>
-          <li>Difficulty with deep, restorative rest</li>
-        </ul>
+          <li>Difficulty with deep, restorative rest</li>        </ul>
         
-        <h2 style="margin-top: 30px; margin-bottom: 20px;">Breaking the Cycle</h2>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Breaking the Cycle</strong></h2>
         
         <p style="margin-bottom: 20px;">The good news? You can break free from notification anxiety with some simple changes:</p>
         
@@ -64,16 +61,16 @@ const getBlogPost = (id: string): BlogPost | null => {
         <p style="margin-bottom: 20px;">Schedule Do Not Disturb during your most important work, rest, and connection times. Allow only true emergencies to break through.</p>
         
         <h3 style="margin-top: 25px; margin-bottom: 15px;">4. Practice the Pause</h3>
+          <p style="margin-bottom: 20px;">When you feel the urge to check your phone, pause for three breaths. Ask yourself: &ldquo;What am I really looking for right now?&rdquo;</p>
         
-        <p style="margin-bottom: 20px;">When you feel the urge to check your phone, pause for three breaths. Ask yourself: &ldquo;What am I really looking for right now?&rdquo;</p>
-        
-        <h2 style="margin-top: 30px; margin-bottom: 20px;">The Peace on the Other Side</h2>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Peace on the Other Side</strong></h2>
         
         <p style="margin-bottom: 20px;">When you reduce notification anxiety, you&apos;re not just eliminating stress - you&apos;re creating space for presence, creativity, and genuine connection. You&apos;re giving your nervous system permission to rest and your mind permission to wander.</p>
         
         <p style="margin-bottom: 20px;">Start small. Pick one app today and turn off its notifications. Notice how it feels to not be interrupted by it. Then tomorrow, pick another one.</p>
-        
-        <p style="margin-bottom: 30px;">Your peace of mind is worth more than staying instantly connected to every digital demand on your attention.</p>
+          <p style="margin-bottom: 30px;">Your peace of mind is worth more than staying instantly connected to every digital demand on your attention.</p>
+
+        <hr style="border: none; height: 2px; background-color: #A4B2A3; margin: 40px 0;" />
 
         <h2 style="margin-top: 30px; margin-bottom: 20px;">About Dr. Gloria Mark</h2>
         
