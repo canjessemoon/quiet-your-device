@@ -32,12 +32,6 @@ export default function Header() {
               Resources
             </Link>
             <Link 
-              href="/blog" 
-              className="text-stone hover:text-fern transition-colors duration-200 font-medium"
-            >
-              Blog
-            </Link>
-            <Link 
               href="/challenge" 
               className="text-stone hover:text-fern transition-colors duration-200 font-medium"
             >
@@ -48,6 +42,12 @@ export default function Header() {
               className="text-stone hover:text-fern transition-colors duration-200 font-medium"
             >
               About
+            </Link>
+            <Link 
+              href="/blog" 
+              className="text-stone hover:text-fern transition-colors duration-200 font-medium"
+            >
+              Blog
             </Link>
           </nav>
           
@@ -91,13 +91,6 @@ export default function Header() {
                 Resources
               </Link>
               <Link 
-                href="/blog" 
-                className="text-stone hover:text-fern transition-colors duration-200 font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Blog
-              </Link>
-              <Link 
                 href="/challenge" 
                 className="text-stone hover:text-fern transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
@@ -110,6 +103,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
+              </Link>
+              <Link 
+                href="/blog" 
+                className="text-stone hover:text-fern transition-colors duration-200 font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link 
                 href="/challenge"
