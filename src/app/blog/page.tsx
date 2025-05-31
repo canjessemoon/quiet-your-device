@@ -7,7 +7,7 @@ import Link from 'next/link';
 const blogPosts = [
   {
     id: 1,
-    title: "The Hidden Cost of Notification Anxiety",
+    title: "Your Phone's Buzz Is Stressing You Out (And What to Do About It)",
     excerpt: "Every ping, buzz, and flash creates a micro-stress response in our nervous system. Here's how to break the cycle and reclaim your peace of mind.",
     author: "QYD Team",
     date: "May 28, 2025",
@@ -116,42 +116,39 @@ export default function BlogPage() {
             <p className="text-lg text-stone max-w-2xl mx-auto">
               Expert insights, research-backed strategies, and practical guidance for your digital wellness journey.
             </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          </div>          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogPosts.map((post) => (
-              <article key={post.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="inline-block bg-mist text-fern text-sm px-3 py-1 rounded-full font-medium">
-                      {post.category}
-                    </span>
-                    <span className="text-sage text-sm">{post.readTime}</span>
-                  </div>
-                  
-                  <h3 className="text-xl font-semibold text-fern mb-3 leading-tight">
-                    {post.title}
-                  </h3>
-                  
-                  <p className="text-stone mb-4 leading-relaxed">
-                    {post.excerpt}
-                  </p>
-                  
-                  <div className="flex items-center justify-between">
-                    <div className="text-sm text-sage">
-                      <span className="font-medium">{post.author}</span>
-                      <span className="mx-2">•</span>
-                      <span>{post.date}</span>
+              <Link key={post.id} href={`/blog/${post.id}`} className="block">
+                <article className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden h-full cursor-pointer">
+                  <div className="p-6">
+                    <div className="flex items-center justify-between mb-3">
+                      <span className="inline-block bg-mist text-fern text-sm px-3 py-1 rounded-full font-medium">
+                        {post.category}
+                      </span>
+                      <span className="text-sage text-sm">{post.readTime}</span>
                     </div>
-                    <Link 
-                      href={`/blog/${post.id}`}
-                      className="text-fern hover:text-sage font-medium text-sm transition-colors"
-                    >
-                      Read More →
-                    </Link>
+                    
+                    <h3 className="text-xl font-semibold text-fern mb-3 leading-tight">
+                      {post.title}
+                    </h3>
+                    
+                    <p className="text-stone mb-4 leading-relaxed">
+                      {post.excerpt}
+                    </p>
+                    
+                    <div className="flex items-center justify-between">
+                      <div className="text-sm text-sage">
+                        <span className="font-medium">{post.author}</span>
+                        <span className="mx-2">•</span>
+                        <span>{post.date}</span>
+                      </div>
+                      <span className="text-fern hover:text-sage font-medium text-sm transition-colors">
+                        Read More →
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </article>
+                </article>
+              </Link>
             ))}
           </div>
         </div>
