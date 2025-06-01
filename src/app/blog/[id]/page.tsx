@@ -121,24 +121,22 @@ const getBlogPost = (id: string): BlogPost | null => {
           <blockquote style="font-size: 1.25rem; font-style: italic; color: #4F6F52; margin: 0; font-weight: 500;">
             "It's not about willpower. It's about working with your brain."
           </blockquote>
-        </div>        
-        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Working With Your Brain, Not Against It</strong></h2>
+        </div>          <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Working With Your Brain, Not Against It</strong></h2>
         <p style="margin-bottom: 20px;">Instead of fighting your brain's natural tendencies, work with them:</p>
         
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Replace, Don't Remove</h3>
-        <p style="margin-bottom: 20px;">When you feel the urge to check your phone, have a replacement ready: take three deep breaths, look out a window, stretch, or drink some water.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">1. Replace, Don't Remove</h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">When you feel the urge to check your phone, have a replacement ready: take three deep breaths, look out a window, stretch, or drink some water.</p>
         
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Create Positive Friction</h3>
-        <p style="margin-bottom: 20px;">Make checking your phone slightly more difficult. Move it to another room, turn it face down, or use airplane mode during focused work.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">2. Create Positive Friction</h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">Make checking your phone slightly more difficult. Move it to another room, turn it face down, or use airplane mode during focused work.</p>
         
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Design Your Environment</h3>
-        <p style="margin-bottom: 20px;">Put books, musical instruments, or art supplies where you used to keep your phone. Make good choices easier than bad ones.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">3. Design Your Environment</h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">Put books, musical instruments, or art supplies where you used to keep your phone. Make good choices easier than bad ones.</p>
         
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Practice Delayed Gratification</h3>
-        <p style="margin-bottom: 20px;">When you want to check your phone, wait 60 seconds. Often, the urge will pass. This strengthens your "pause muscle."</p>
-        
-        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Compassion, Not Criticism</strong></h2>
-        <p style="margin-bottom: 20px;">Remember: your phone habits aren't a moral failing. They're the result of sophisticated technology designed to capture attention, meeting very human needs for connection, stimulation, and validation.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">4. Practice Delayed Gratification</h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">When you want to check your phone, wait 60 seconds. Often, the urge will pass. This strengthens your "pause muscle."</p>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">5. Compassion, Not Criticism</h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">Remember: your phone habits aren't a moral failing. They're the result of sophisticated technology designed to capture attention, meeting very human needs for connection, stimulation, and validation.</p>
         
         <p style="margin-bottom: 20px;">Approach your digital wellness journey with curiosity rather than criticism. What is your phone use trying to give you? How can you meet those needs in healthier ways?</p>
         
