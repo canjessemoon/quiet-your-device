@@ -159,16 +159,24 @@ const getBlogPost = (id: string): BlogPost | null => {
       category: "Science"
     },    '3': {
       id: 3,
-      title: "Creating Sacred Spaces in a Digital World",
+      title: "How to Create Phone-Free Spaces That Support Real Rest",
       content: `
+        <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+          <h3 style="color: #4F6F52; margin-bottom: 15px;">TL;DR: How to Create Sacred, Phone-Free Spaces at Home</h3>
+          <p style="color: #5D6F77; margin-bottom: 15px;">Your environment shapes your attention. When your phone is always nearby, your brain stays in alert mode.</p>
+          <p style="color: #5D6F77; margin-bottom: 15px;">Designating phone-free zones — like the bedroom, dining room, or living room — helps your body and mind truly rest.</p>
+          <p style="color: #5D6F77; margin-bottom: 15px;">Simple changes make a big impact: use an analog alarm clock, keep books in reach, and create cozy, tech-free corners.</p>
+          <p style="color: #5D6F77; margin-bottom: 15px;">Start small. Begin with one room or even one corner. Replace screen time with something meaningful.</p>
+          <p style="color: #5D6F77; margin-bottom: 0;">This isn't about restriction — it's about intention. When you create space from screens, you make more room for presence, connection, and calm.</p>
+        </div>
+        
         <p style="margin-bottom: 20px;">In a world where our devices follow us everywhere, creating physical spaces that support digital wellness has become essential for mental health and genuine connection.</p>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Why Physical Space Matters</strong></h2>
         <p style="margin-bottom: 20px;">Our environment shapes our behavior more than we realize. When your phone is always within arm's reach, your brain stays in a state of partial attention, always ready for the next notification.</p>
+          <p style="margin-bottom: 20px;">Creating phone-free zones gives your nervous system permission to truly rest and your relationships permission to deepen.</p>
         
-        <p style="margin-bottom: 20px;">Creating phone-free zones gives your nervous system permission to truly rest and your relationships permission to deepen.</p>
-        
-        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Bedroom: Your First Sacred Space</strong></h2>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Bedroom: Designed for Peace, Not Pings</strong></h2>
         <p style="margin-bottom: 20px;">Your bedroom should be a sanctuary for rest, intimacy, and restoration. Here's how to reclaim it:</p>
         
         <h3 style="margin-top: 25px; margin-bottom: 15px;">Why Phones Don't Belong in Bedrooms</h3>
@@ -243,9 +251,15 @@ const getBlogPost = (id: string): BlogPost | null => {
         
         <h3 style="margin-top: 25px; margin-bottom: 15px;">Create Positive Alternatives</h3>
         <p style="margin-bottom: 20px;">Don't just remove phones - replace them with things that bring joy: books, instruments, art supplies, games, or plants.</p>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Be Patient</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">Be Patient</h3>
         <p style="margin-bottom: 20px;">It takes time to break the habit of reaching for your phone. Be gentle with yourself as you adjust to these new spaces.</p>
+        
+        <div style="background-color: #f0f7f0; padding: 30px; border-radius: 12px; margin: 40px 0; text-align: center; border-left: 4px solid #4F6F52;">
+          <blockquote style="font-size: 1.25rem; font-style: italic; color: #4F6F52; margin: 0; font-weight: 500;">
+            🛋️ "Your home should reflect your values — not your notifications."
+          </blockquote>
+          <p style="margin: 10px 0 0 0; color: #5D6F77; font-size: 0.9rem; font-weight: 500;">– QYD</p>
+        </div>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Ripple Effects</strong></h2>
         <p style="margin-bottom: 20px;">When you create sacred spaces in your home, you're not just changing your phone habits - you're creating opportunities for:</p>

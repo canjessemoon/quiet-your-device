@@ -21,10 +21,9 @@ const blogPosts = [
     date: "May 25, 2025",
     readTime: "7 min read",
     category: "Science"
-  },
-  {
+  },  {
     id: 3,
-    title: "Creating Sacred Spaces in a Digital World",
+    title: "How to Create Phone-Free Spaces That Support Real Rest",
     excerpt: "How to designate phone-free zones in your home that actually work, plus why your bedroom should be the first place to start.",
     author: "QYD Team",
     date: "May 20, 2025", 
