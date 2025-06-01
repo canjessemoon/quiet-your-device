@@ -83,24 +83,23 @@ const getBlogPost = (id: string): BlogPost | null => {
       readTime: "5 min read",
       category: "Mindfulness"
     },    '2': {
-      id: 2,
-      title: "The Science of Why You Can't Stop Checking Your Phone",
+      id: 2,      title: "The Science of Why You Can't Stop Checking Your Phone",
       content: `
-        <p>Understanding why we reach for our phones can help us develop more compassionate and effective strategies for change. It's not about willpower - it's about understanding how our brains work.</p>
+        <p style="margin-bottom: 20px;">Understanding why we reach for our phones can help us develop more compassionate and effective strategies for change. It's not about willpower - it's about understanding how our brains work.</p>
         
-        <h2>The Dopamine Connection</h2>
-        <p>Every time you get a like, a message, or even see a red notification badge, your brain releases dopamine. This isn't the "happiness" chemical many people think it is - dopamine is actually about anticipation and seeking.</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Dopamine Connection</strong></h2>
+        <p style="margin-bottom: 20px;">Every time you get a like, a message, or even see a red notification badge, your brain releases dopamine. This isn't the "happiness" chemical many people think it is - dopamine is actually about anticipation and seeking.</p>
         
-        <p>Here's the fascinating part: dopamine is released more during the anticipation of a reward than when you actually receive it. This is why checking your phone can feel both satisfying and never quite satisfying enough.</p>
+        <p style="margin-bottom: 20px;">Here's the fascinating part: dopamine is released more during the anticipation of a reward than when you actually receive it. This is why checking your phone can feel both satisfying and never quite satisfying enough.</p>
         
-        <h2>The Variable Reward Schedule</h2>
-        <p>Social media platforms use what psychologists call "variable ratio reinforcement" - the same principle that makes gambling addictive. Sometimes you get a reward (interesting content, social validation), sometimes you don't. This unpredictability keeps you coming back.</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Variable Reward Schedule</strong></h2>
+        <p style="margin-bottom: 20px;">Social media platforms use what psychologists call "variable ratio reinforcement" - the same principle that makes gambling addictive. Sometimes you get a reward (interesting content, social validation), sometimes you don't. This unpredictability keeps you coming back.</p>
         
-        <p>Your brain doesn't know if this check will be the one that brings something exciting, so it keeps you looking. It's not a character flaw - it's psychology.</p>
+        <p style="margin-bottom: 20px;">Your brain doesn't know if this check will be the one that brings something exciting, so it keeps you looking. It's not a character flaw - it's psychology.</p>
         
-        <h2>The Attention Merchants</h2>
-        <p>Tech companies employ teams of neuroscientists, behavioral economists, and game designers whose job is to capture and hold your attention. They use:</p>
-        <ul>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Attention Merchants</strong></h2>
+        <p style="margin-bottom: 20px;">Tech companies employ teams of neuroscientists, behavioral economists, and game designers whose job is to capture and hold your attention. They use:</p>
+        <ul style="margin-bottom: 20px;">
           <li>Infinite scroll (no natural stopping point)</li>
           <li>Push notifications (interrupting your day)</li>
           <li>Social approval metrics (likes, hearts, reactions)</li>
@@ -108,64 +107,63 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Autoplay videos (keeping you watching)</li>
         </ul>
         
-        <h2>Your Brain on Digital</h2>
-        <p>Constant digital stimulation changes how your brain works:</p>
-        <ul>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Your Brain on Digital</strong></h2>
+        <p style="margin-bottom: 20px;">Constant digital stimulation changes how your brain works:</p>
+        <ul style="margin-bottom: 20px;">
           <li><strong>Shortened attention span:</strong> We lose the ability to focus deeply</li>
           <li><strong>Increased anxiety:</strong> Always expecting the next notification</li>
           <li><strong>Reduced patience:</strong> We want everything instantly</li>
           <li><strong>Weakened memory:</strong> Why remember when you can Google?</li>
-          <li><strong>Decreased creativity:</strong> No boredom means fewer breakthrough ideas</li>        </ul>
+          <li><strong>Decreased creativity:</strong> No boredom means fewer breakthrough ideas</li>
+        </ul>
         
         <div style="background-color: #f0f7f0; padding: 30px; border-radius: 12px; margin: 40px 0; text-align: center; border-left: 4px solid #4F6F52;">
           <blockquote style="font-size: 1.25rem; font-style: italic; color: #4F6F52; margin: 0; font-weight: 500;">
             "It's not about willpower. It's about working with your brain."
           </blockquote>
-        </div>
+        </div>        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Working With Your Brain, Not Against It</strong></h2>
+        <p style="margin-bottom: 20px;">Instead of fighting your brain's natural tendencies, work with them:</p>
         
-        <h2>Working With Your Brain, Not Against It</h2>
-        <p>Instead of fighting your brain's natural tendencies, work with them:</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Replace, Don't Remove</h3>
+        <p style="margin-bottom: 20px;">When you feel the urge to check your phone, have a replacement ready: take three deep breaths, look out a window, stretch, or drink some water.</p>
         
-        <h3>Replace, Don't Remove</h3>
-        <p>When you feel the urge to check your phone, have a replacement ready: take three deep breaths, look out a window, stretch, or drink some water.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Create Positive Friction</h3>
+        <p style="margin-bottom: 20px;">Make checking your phone slightly more difficult. Move it to another room, turn it face down, or use airplane mode during focused work.</p>
         
-        <h3>Create Positive Friction</h3>
-        <p>Make checking your phone slightly more difficult. Move it to another room, turn it face down, or use airplane mode during focused work.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Design Your Environment</h3>
+        <p style="margin-bottom: 20px;">Put books, musical instruments, or art supplies where you used to keep your phone. Make good choices easier than bad ones.</p>
         
-        <h3>Design Your Environment</h3>
-        <p>Put books, musical instruments, or art supplies where you used to keep your phone. Make good choices easier than bad ones.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Practice Delayed Gratification</h3>
+        <p style="margin-bottom: 20px;">When you want to check your phone, wait 60 seconds. Often, the urge will pass. This strengthens your "pause muscle."</p>
         
-        <h3>Practice Delayed Gratification</h3>
-        <p>When you want to check your phone, wait 60 seconds. Often, the urge will pass. This strengthens your "pause muscle."</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Compassion, Not Criticism</strong></h2>
+        <p style="margin-bottom: 20px;">Remember: your phone habits aren't a moral failing. They're the result of sophisticated technology designed to capture attention, meeting very human needs for connection, stimulation, and validation.</p>
         
-        <h2>Compassion, Not Criticism</h2>
-        <p>Remember: your phone habits aren't a moral failing. They're the result of sophisticated technology designed to capture attention, meeting very human needs for connection, stimulation, and validation.</p>
+        <p style="margin-bottom: 20px;">Approach your digital wellness journey with curiosity rather than criticism. What is your phone use trying to give you? How can you meet those needs in healthier ways?</p>
         
-        <p>Approach your digital wellness journey with curiosity rather than criticism. What is your phone use trying to give you? How can you meet those needs in healthier ways?</p>
-        
-        <p>Change happens not through force, but through understanding, patience, and small, consistent choices that honor both your human needs and your deeper values.</p>
+        <p style="margin-bottom: 30px;">Change happens not through force, but through understanding, patience, and small, consistent choices that honor both your human needs and your deeper values.</p>
       `,
       author: "QYD Team",
       date: "May 25, 2025",
       readTime: "7 min read",
       category: "Science"
-    },
-    '3': {
+    },    '3': {
       id: 3,
       title: "Creating Sacred Spaces in a Digital World",
       content: `
-        <p>In a world where our devices follow us everywhere, creating physical spaces that support digital wellness has become essential for mental health and genuine connection.</p>
+        <p style="margin-bottom: 20px;">In a world where our devices follow us everywhere, creating physical spaces that support digital wellness has become essential for mental health and genuine connection.</p>
         
-        <h2>Why Physical Space Matters</h2>
-        <p>Our environment shapes our behavior more than we realize. When your phone is always within arm's reach, your brain stays in a state of partial attention, always ready for the next notification.</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Why Physical Space Matters</strong></h2>
+        <p style="margin-bottom: 20px;">Our environment shapes our behavior more than we realize. When your phone is always within arm's reach, your brain stays in a state of partial attention, always ready for the next notification.</p>
         
-        <p>Creating phone-free zones gives your nervous system permission to truly rest and your relationships permission to deepen.</p>
+        <p style="margin-bottom: 20px;">Creating phone-free zones gives your nervous system permission to truly rest and your relationships permission to deepen.</p>
         
-        <h2>The Bedroom: Your First Sacred Space</h2>
-        <p>Your bedroom should be a sanctuary for rest, intimacy, and restoration. Here's how to reclaim it:</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Bedroom: Your First Sacred Space</strong></h2>
+        <p style="margin-bottom: 20px;">Your bedroom should be a sanctuary for rest, intimacy, and restoration. Here's how to reclaim it:</p>
         
-        <h3>Why Phones Don't Belong in Bedrooms</h3>
-        <ul>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Why Phones Don't Belong in Bedrooms</h3>
+        <ul style="margin-bottom: 20px;">
           <li>Blue light disrupts melatonin production</li>
           <li>Late-night scrolling increases anxiety</li>
           <li>Morning phone-checking floods you with cortisol</li>
@@ -173,8 +171,8 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Emergency calls can come to a landline or partner's phone</li>
         </ul>
         
-        <h3>Setting Up Your Phone-Free Bedroom</h3>
-        <ul>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Setting Up Your Phone-Free Bedroom</h3>
+        <ul style="margin-bottom: 20px;">
           <li>Buy an analog alarm clock (yes, they still exist!)</li>
           <li>Create a charging station outside your bedroom</li>
           <li>Keep a journal and pen beside your bed instead</li>
@@ -182,11 +180,11 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Place a book on your nightstand for late-night reading</li>
         </ul>
         
-        <h2>The Dining Room: Reconnecting Over Meals</h2>
-        <p>Meals are one of our most important opportunities for connection, but phones often steal this sacred time.</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Dining Room: Reconnecting Over Meals</strong></h2>
+        <p style="margin-bottom: 20px;">Meals are one of our most important opportunities for connection, but phones often steal this sacred time.</p>
         
-        <h3>Creating a Phone-Free Dining Experience</h3>
-        <ul>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Creating a Phone-Free Dining Experience</h3>
+        <ul style="margin-bottom: 20px;">
           <li>Establish a "phone basket" by the entrance</li>
           <li>Make it a family rule: no phones at the table</li>
           <li>Use a physical timer for kids' "phone breaks"</li>
@@ -194,11 +192,11 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Put on gentle background music instead of having phones for entertainment</li>
         </ul>
         
-        <h2>The Living Room: Space for Presence</h2>
-        <p>Your living room can become a space for genuine relaxation, conversation, and mindful entertainment.</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Living Room: Space for Presence</strong></h2>
+        <p style="margin-bottom: 20px;">Your living room can become a space for genuine relaxation, conversation, and mindful entertainment.</p>
         
-        <h3>Design for Connection</h3>
-        <ul>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Design for Connection</h3>
+        <ul style="margin-bottom: 20px;">
           <li>Arrange furniture to face each other, not just the TV</li>
           <li>Create a visible spot for phones to "rest"</li>
           <li>Keep books, board games, and puzzles easily accessible</li>
@@ -206,11 +204,11 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Display photos that spark conversation and memory</li>
         </ul>
         
-        <h2>Creating Personal Sacred Spaces</h2>
-        <p>Even in small homes, you can create a personal space that supports digital wellness:</p>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Creating Personal Sacred Spaces</strong></h2>
+        <p style="margin-bottom: 20px;">Even in small homes, you can create a personal space that supports digital wellness:</p>
         
-        <h3>A Reading Nook</h3>
-        <ul>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">A Reading Nook</h3>
+        <ul style="margin-bottom: 20px;">
           <li>Comfortable chair with good lighting</li>
           <li>Small bookshelf or basket of books</li>
           <li>Soft throw blanket</li>
@@ -218,31 +216,31 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>No WiFi password visible from this spot</li>
         </ul>
         
-        <h3>A Meditation Corner</h3>
-        <ul>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">A Meditation Corner</h3>
+        <ul style="margin-bottom: 20px;">
           <li>Cushion or comfortable spot to sit</li>
           <li>Something natural: a plant, stone, or small fountain</li>
           <li>Perhaps a candle or essential oil diffuser</li>
           <li>Keep it simple and uncluttered</li>
         </ul>
         
-        <h2>Practical Implementation Tips</h2>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Practical Implementation Tips</strong></h2>
         
-        <h3>Start Small</h3>
-        <p>Don't try to make your entire home phone-free overnight. Pick one room or even one corner to start with.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Start Small</h3>
+        <p style="margin-bottom: 20px;">Don't try to make your entire home phone-free overnight. Pick one room or even one corner to start with.</p>
         
-        <h3>Involve Everyone</h3>
-        <p>If you live with others, make this a collaborative effort. Explain why these spaces matter to you and ask for their support.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Involve Everyone</h3>
+        <p style="margin-bottom: 20px;">If you live with others, make this a collaborative effort. Explain why these spaces matter to you and ask for their support.</p>
         
-        <h3>Create Positive Alternatives</h3>
-        <p>Don't just remove phones - replace them with things that bring joy: books, instruments, art supplies, games, or plants.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Create Positive Alternatives</h3>
+        <p style="margin-bottom: 20px;">Don't just remove phones - replace them with things that bring joy: books, instruments, art supplies, games, or plants.</p>
         
-        <h3>Be Patient</h3>
-        <p>It takes time to break the habit of reaching for your phone. Be gentle with yourself as you adjust to these new spaces.</p>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">Be Patient</h3>
+        <p style="margin-bottom: 20px;">It takes time to break the habit of reaching for your phone. Be gentle with yourself as you adjust to these new spaces.</p>
         
-        <h2>The Ripple Effects</h2>
-        <p>When you create sacred spaces in your home, you're not just changing your phone habits - you're creating opportunities for:</p>
-        <ul>
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Ripple Effects</strong></h2>
+        <p style="margin-bottom: 20px;">When you create sacred spaces in your home, you're not just changing your phone habits - you're creating opportunities for:</p>
+        <ul style="margin-bottom: 20px;">
           <li>Deeper conversations with family and friends</li>
           <li>Better quality sleep and rest</li>
           <li>Increased creativity and reflection</li>
@@ -250,9 +248,9 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Stronger sense of home as sanctuary</li>
         </ul>
         
-        <p>Your home should be a place that supports your values, not undermines them. By creating sacred spaces, you're choosing presence over productivity, connection over convenience, and peace over perpetual stimulation.</p>
+        <p style="margin-bottom: 20px;">Your home should be a place that supports your values, not undermines them. By creating sacred spaces, you're choosing presence over productivity, connection over convenience, and peace over perpetual stimulation.</p>
         
-        <p>Start today. Pick one space. Make it phone-free. Notice what grows in that space when technology steps back.</p>
+        <p style="margin-bottom: 30px;">Start today. Pick one space. Make it phone-free. Notice what grows in that space when technology steps back.</p>
       `,
       author: "QYD Team",
       date: "May 20, 2025",
