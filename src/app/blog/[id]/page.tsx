@@ -85,6 +85,17 @@ const getBlogPost = (id: string): BlogPost | null => {
     },    '2': {
       id: 2,      title: "The Science of Why You Can't Stop Checking Your Phone",
       content: `
+        <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+          <h3 style="color: #4F6F52; margin-bottom: 10px;">TL;DR</h3>
+          <ul style="margin: 0; padding-left: 20px; color: #5D6F77;">
+            <li style="margin-bottom: 8px;">It's not your fault. Phones are designed to trigger dopamine — the brain chemical tied to seeking, not satisfaction.</li>
+            <li style="margin-bottom: 8px;">Social media mimics gambling. Unpredictable rewards (likes, messages, content) keep your brain hooked.</li>
+            <li style="margin-bottom: 8px;">Your attention is being sold. Tech companies use neuroscience to keep you scrolling.</li>
+            <li style="margin-bottom: 8px;">Constant stimulation has side effects. It shortens attention spans, raises anxiety, and weakens memory.</li>
+            <li style="margin-bottom: 0;">Change is possible. With small shifts — like delaying the urge, designing your space, and replacing habits — you can reclaim your focus and calm.</li>
+          </ul>
+        </div>
+        
         <p style="margin-bottom: 20px;">Understanding why we reach for our phones can help us develop more compassionate and effective strategies for change. It's not about willpower - it's about understanding how our brains work.</p>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Dopamine Connection</strong></h2>
