@@ -82,10 +82,9 @@ const getBlogPost = (id: string): BlogPost | null => {
       date: "May 28, 2025",
       readTime: "5 min read",
       category: "Mindfulness"
-    },
-    '2': {
+    },    '2': {
       id: 2,
-      title: "Why Your Brain Craves Digital Stimulation",
+      title: "The Science of Why You Can't Stop Checking Your Phone",
       content: `
         <p>Understanding why we reach for our phones can help us develop more compassionate and effective strategies for change. It's not about willpower - it's about understanding how our brains work.</p>
         
@@ -116,8 +115,13 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li><strong>Increased anxiety:</strong> Always expecting the next notification</li>
           <li><strong>Reduced patience:</strong> We want everything instantly</li>
           <li><strong>Weakened memory:</strong> Why remember when you can Google?</li>
-          <li><strong>Decreased creativity:</strong> No boredom means fewer breakthrough ideas</li>
-        </ul>
+          <li><strong>Decreased creativity:</strong> No boredom means fewer breakthrough ideas</li>        </ul>
+        
+        <div style="background-color: #f0f7f0; padding: 30px; border-radius: 12px; margin: 40px 0; text-align: center; border-left: 4px solid #4F6F52;">
+          <blockquote style="font-size: 1.25rem; font-style: italic; color: #4F6F52; margin: 0; font-weight: 500;">
+            "It's not about willpower. It's about working with your brain."
+          </blockquote>
+        </div>
         
         <h2>Working With Your Brain, Not Against It</h2>
         <p>Instead of fighting your brain's natural tendencies, work with them:</p>

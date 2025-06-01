@@ -13,10 +13,9 @@ const blogPosts = [
     date: "May 28, 2025",
     readTime: "5 min read",
     category: "Mindfulness"
-  },
-  {
+  },  {
     id: 2,
-    title: "Why Your Brain Craves Digital Stimulation",
+    title: "The Science of Why You Can't Stop Checking Your Phone",
     excerpt: "Understanding the neuroscience behind our phone addiction can help us develop more compassionate and effective strategies for change.",
     author: "QYD Team", 
     date: "May 25, 2025",
