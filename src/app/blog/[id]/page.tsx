@@ -178,80 +178,75 @@ const getBlogPost = (id: string): BlogPost | null => {
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Bedroom: Designed for Peace, Not Pings</strong></h2>
         <p style="margin-bottom: 20px;">Your bedroom should be a sanctuary for rest, intimacy, and restoration. Here's how to reclaim it:</p>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Why Phones Don't Belong in Bedrooms</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">Why Phones Don't Belong in Bedrooms</h3>
         <ul style="margin-bottom: 20px;">
-          <li>Blue light disrupts melatonin production</li>
-          <li>Late-night scrolling increases anxiety</li>
-          <li>Morning phone-checking floods you with cortisol</li>
-          <li>It interferes with intimate connection</li>
-          <li>Emergency calls can come to a landline or partner's phone</li>
+          <li>• Blue light disrupts melatonin production</li>
+          <li>• Late-night scrolling increases anxiety</li>
+          <li>• Morning phone-checking floods you with cortisol</li>
+          <li>• It interferes with intimate connection</li>
+          <li>• Emergency calls can come to a landline or partner's phone</li>
         </ul>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Setting Up Your Phone-Free Bedroom</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">Setting Up Your Phone-Free Bedroom</h3>
         <ul style="margin-bottom: 20px;">
-          <li>Buy an analog alarm clock (yes, they still exist!)</li>
-          <li>Create a charging station outside your bedroom</li>
-          <li>Keep a journal and pen beside your bed instead</li>
-          <li>Use blackout curtains and a white noise machine</li>
-          <li>Place a book on your nightstand for late-night reading</li>
-        </ul>
+          <li>• Buy an analog alarm clock (yes, they still exist!)</li>
+          <li>• Create a charging station outside your bedroom</li>
+          <li>• Keep a journal and pen beside your bed instead</li>
+          <li>• Use blackout curtains and a white noise machine</li>
+          <li>• Place a book on your nightstand for late-night reading</li>        </ul>
+        
+        <div style="text-align: center; margin: 40px 0;">
+          <img src="/images/Room-blog-3.png" alt="A cozy, phone-free living room designed for connection and calm" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+        </div>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Dining Room: Reconnecting Over Meals</strong></h2>
         <p style="margin-bottom: 20px;">Meals are one of our most important opportunities for connection, but phones often steal this sacred time.</p>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Creating a Phone-Free Dining Experience</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">Creating a Phone-Free Dining Experience</h3>
         <ul style="margin-bottom: 20px;">
-          <li>Establish a "phone basket" by the entrance</li>
-          <li>Make it a family rule: no phones at the table</li>
-          <li>Use a physical timer for kids' "phone breaks"</li>
-          <li>Create conversation starters or questions</li>
-          <li>Put on gentle background music instead of having phones for entertainment</li>
+          <li>• Establish a "phone basket" by the entrance</li>
+          <li>• Make it a family rule: no phones at the table</li>
+          <li>• Use a physical timer for kids' "phone breaks"</li>
+          <li>• Create conversation starters or questions</li>
+          <li>• Put on gentle background music instead of having phones for entertainment</li>
         </ul>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Living Room: Space for Presence</strong></h2>
         <p style="margin-bottom: 20px;">Your living room can become a space for genuine relaxation, conversation, and mindful entertainment.</p>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Design for Connection</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">Design for Connection</h3>
         <ul style="margin-bottom: 20px;">
-          <li>Arrange furniture to face each other, not just the TV</li>
-          <li>Create a visible spot for phones to "rest"</li>
-          <li>Keep books, board games, and puzzles easily accessible</li>
-          <li>Use warm, soft lighting instead of harsh overhead lights</li>
-          <li>Display photos that spark conversation and memory</li>
+          <li>• Arrange furniture to face each other, not just the TV</li>
+          <li>• Create a visible spot for phones to "rest"</li>
+          <li>• Keep books, board games, and puzzles easily accessible</li>
+          <li>• Use warm, soft lighting instead of harsh overhead lights</li>
+          <li>• Display photos that spark conversation and memory</li>
         </ul>
-        
-        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Creating Personal Sacred Spaces</strong></h2>
+          <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Designing Personal Spaces for Calm</strong></h2>
         <p style="margin-bottom: 20px;">Even in small homes, you can create a personal space that supports digital wellness:</p>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">A Reading Nook</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">A Reading Nook</h3>
         <ul style="margin-bottom: 20px;">
-          <li>Comfortable chair with good lighting</li>
-          <li>Small bookshelf or basket of books</li>
-          <li>Soft throw blanket</li>
-          <li>Perhaps a plant or calming artwork</li>
-          <li>No WiFi password visible from this spot</li>
+          <li>• Comfortable chair with good lighting</li>
+          <li>• Small bookshelf or basket of books</li>
+          <li>• Soft throw blanket</li>
+          <li>• Perhaps a plant or calming artwork</li>
+          <li>• No WiFi password visible from this spot</li>
         </ul>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">A Meditation Corner</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;">A Meditation Corner</h3>
         <ul style="margin-bottom: 20px;">
-          <li>Cushion or comfortable spot to sit</li>
-          <li>Something natural: a plant, stone, or small fountain</li>
-          <li>Perhaps a candle or essential oil diffuser</li>
-          <li>Keep it simple and uncluttered</li>
+          <li>• Cushion or comfortable spot to sit</li>
+          <li>• Something natural: a plant, stone, or small fountain</li>
+          <li>• Perhaps a candle or essential oil diffuser</li>
+          <li>• Keep it simple and uncluttered</li>
         </ul>
+          <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Practical Implementation Tips</strong></h2>
         
-        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Practical Implementation Tips</strong></h2>
-        
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Start Small</h3>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;"><strong>Start Small</strong></h3>
         <p style="margin-bottom: 20px;">Don't try to make your entire home phone-free overnight. Pick one room or even one corner to start with.</p>
         
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Involve Everyone</h3>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;"><strong>Involve Everyone</strong></h3>
         <p style="margin-bottom: 20px;">If you live with others, make this a collaborative effort. Explain why these spaces matter to you and ask for their support.</p>
         
-        <h3 style="margin-top: 25px; margin-bottom: 15px;">Create Positive Alternatives</h3>
+        <h3 style="margin-top: 25px; margin-bottom: 15px;"><strong>Create Positive Alternatives</strong></h3>
         <p style="margin-bottom: 20px;">Don't just remove phones - replace them with things that bring joy: books, instruments, art supplies, games, or plants.</p>
-          <h3 style="margin-top: 25px; margin-bottom: 15px;">Be Patient</h3>
+          <h3 style="margin-top: 25px; margin-bottom: 15px;"><strong>Be Patient</strong></h3>
         <p style="margin-bottom: 20px;">It takes time to break the habit of reaching for your phone. Be gentle with yourself as you adjust to these new spaces.</p>
         
         <div style="background-color: #f0f7f0; padding: 30px; border-radius: 12px; margin: 40px 0; text-align: center; border-left: 4px solid #4F6F52;">
@@ -260,15 +255,14 @@ const getBlogPost = (id: string): BlogPost | null => {
           </blockquote>
           <p style="margin: 10px 0 0 0; color: #5D6F77; font-size: 0.9rem; font-weight: 500;">– QYD</p>
         </div>
-        
-        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Ripple Effects</strong></h2>
+          <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The Ripple Effects</strong></h2>
         <p style="margin-bottom: 20px;">When you create sacred spaces in your home, you're not just changing your phone habits - you're creating opportunities for:</p>
         <ul style="margin-bottom: 20px;">
-          <li>Deeper conversations with family and friends</li>
-          <li>Better quality sleep and rest</li>
-          <li>Increased creativity and reflection</li>
-          <li>More mindful eating and appreciation</li>
-          <li>Stronger sense of home as sanctuary</li>
+          <li>• Deeper conversations with family and friends</li>
+          <li>• Better quality sleep and rest</li>
+          <li>• Increased creativity and reflection</li>
+          <li>• More mindful eating and appreciation</li>
+          <li>• Stronger sense of home as sanctuary</li>
         </ul>
         
         <p style="margin-bottom: 20px;">Your home should be a place that supports your values, not undermines them. By creating sacred spaces, you're choosing presence over productivity, connection over convenience, and peace over perpetual stimulation.</p>
