@@ -106,31 +106,28 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-mist p-8 rounded-xl">
-              <h3 className="text-xl font-semibold text-fern mb-4">Mindful Breaks</h3>
-              <p className="text-stone mb-4">
+              <h3 className="text-xl font-semibold text-fern mb-4">Mindful Breaks</h3>              <p className="text-stone mb-4">
                 Gentle reminders to pause, breathe, and reconnect with the present moment.
               </p>
-              <a href="#" className="text-sage hover:text-fern font-medium transition-colors">
+              <Link href="/resources" className="text-sage hover:text-fern font-medium transition-colors">
                 Learn More →
-              </a>
+              </Link>
             </div>
             <div className="bg-mist p-8 rounded-xl">
-              <h3 className="text-xl font-semibold text-fern mb-4">Phone-Free Zones</h3>
-              <p className="text-stone mb-4">
+              <h3 className="text-xl font-semibold text-fern mb-4">Phone-Free Zones</h3>              <p className="text-stone mb-4">
                 Create sacred spaces in your home where devices take a back seat to life.
               </p>
-              <a href="#" className="text-sage hover:text-fern font-medium transition-colors">
+              <Link href="/resources" className="text-sage hover:text-fern font-medium transition-colors">
                 Learn More →
-              </a>
+              </Link>
             </div>
             <div className="bg-mist p-8 rounded-xl">
-              <h3 className="text-xl font-semibold text-fern mb-4">Intentional Usage</h3>
-              <p className="text-stone mb-4">
+              <h3 className="text-xl font-semibold text-fern mb-4">Intentional Usage</h3>              <p className="text-stone mb-4">
                 Develop awareness around when and why you reach for your device.
               </p>
-              <a href="#" className="text-sage hover:text-fern font-medium transition-colors">
+              <Link href="/resources" className="text-sage hover:text-fern font-medium transition-colors">
                 Learn More →
-              </a>
+              </Link>
             </div>
           </div>
         </div>
