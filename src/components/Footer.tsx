@@ -1,20 +1,7 @@
-'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
 
 export default function Footer() {
-  const [email, setEmail] = useState('');
-  const [isSubscribed, setIsSubscribed] = useState(false);
-
-  const handleNewsletterSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Placeholder for newsletter signup functionality
-    setIsSubscribed(true);
-    setEmail('');
-    setTimeout(() => setIsSubscribed(false), 3000);
-  };
-
   return (
     <footer className="bg-sage text-stone">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -32,30 +19,18 @@ export default function Footer() {
               Helping people reduce screen time and reconnect with life through gentle, 
               science-backed strategies for digital wellness.
             </p>
-            
-            {/* Newsletter Signup */}
+              {/* Newsletter Signup */}
             <div className="max-w-md">
               <h3 className="font-semibold mb-3 text-fern">Stay Connected</h3>
-              {isSubscribed ? (
-                <p className="text-green-600 text-sm">Thank you for subscribing! 📧</p>
-              ) : (
-                <form onSubmit={handleNewsletterSubmit} className="flex gap-2">
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Your email address"
-                    className="flex-1 px-3 py-2 text-sm bg-white border border-stone/30 rounded focus:outline-none focus:border-fern"
-                    required
-                  />
-                  <button
-                    type="submit"
-                    className="bg-fern text-white px-4 py-2 rounded text-sm hover:bg-fern/90 transition-colors"
-                  >
-                    Subscribe
-                  </button>
-                </form>
-              )}
+              <p className="text-sm text-stone mb-4">
+                Get weekly insights and digital wellness tips delivered to your inbox.
+              </p>
+              <a
+                href="/#newsletter"
+                className="bg-fern text-white px-4 py-2 rounded text-sm hover:bg-fern/90 transition-colors inline-block"
+              >
+                Subscribe to Newsletter
+              </a>
             </div>
           </div>
           

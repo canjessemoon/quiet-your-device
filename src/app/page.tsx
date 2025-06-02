@@ -134,9 +134,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Challenge CTA Section */}
+      </section>      {/* Challenge CTA Section */}
       <section className="bg-fern py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">          <h2 className="text-3xl md:text-4xl font-bold text-beige mb-6">
             Ready to Begin?
@@ -148,6 +146,50 @@ export default function Home() {
           >
             Start 7-Day Challenge
           </Link>
+        </div>
+      </section>
+
+      {/* Newsletter Section */}
+      <section id="newsletter" className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-fern mb-4">
+              📧 Stay Connected
+            </h2>
+            <p className="text-xl text-stone max-w-2xl mx-auto">
+              Get weekly insights, practical tips, and gentle reminders delivered to your inbox. 
+              No spam, just thoughtful content to support your digital wellness journey.
+            </p>
+          </div>
+          
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-mist p-8 rounded-xl text-center">
+              <h3 className="text-2xl font-semibold text-fern mb-4">
+                Join Our Community
+              </h3>
+              <p className="text-stone mb-6">
+                Weekly digital wellness tips, new blog posts, and exclusive insights from the QYD team.
+              </p>
+              
+              {/* Kit Signup Form */}
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <iframe 
+                  src="https://quiet-your-device.kit.com/9f3291463d" 
+                  style={{
+                    width: '100%',
+                    height: '300px',
+                    border: 'none',
+                    borderRadius: '8px'
+                  }}
+                  title="Newsletter Signup"
+                />
+              </div>
+              
+              <p className="text-sm text-sage mt-4">
+                ✨ Unsubscribe anytime. We respect your inbox and your time.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
