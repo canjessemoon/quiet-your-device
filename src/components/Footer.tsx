@@ -24,13 +24,12 @@ export default function Footer() {
               <h3 className="font-semibold mb-3 text-fern">Stay Connected</h3>
               <p className="text-sm text-stone mb-4">
                 Get weekly insights and digital wellness tips delivered to your inbox.
-              </p>
-              <a
+              </p>              <Link
                 href="/#newsletter"
                 className="bg-fern text-white px-4 py-2 rounded text-sm hover:bg-fern/90 transition-colors inline-block"
               >
                 Subscribe to Newsletter
-              </a>
+              </Link>
             </div>
           </div>
           

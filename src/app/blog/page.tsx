@@ -32,37 +32,25 @@ const blogPosts = [
   }
 ];
 
+// Interface for user stories (currently disabled for coming soon feature)
+interface UserStory {
+  id: number;
+  title: string;
+  content: string;
+  author: string;
+  date: string;
+  likes: number;
+}
+
 // Sample user stories (currently empty for coming soon feature)
-const initialUserStories: any[] = [];
+const initialUserStories: UserStory[] = [];
 
 export default function BlogPage() {
-  const [userStories, setUserStories] = useState(initialUserStories);
-  const [newStory, setNewStory] = useState({ title: '', content: '', author: '' });
-  const [showForm, setShowForm] = useState(false);
+  const [userStories] = useState(initialUserStories);
 
-  const handleSubmitStory = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (newStory.title && newStory.content && newStory.author) {
-      const story = {
-        id: userStories.length + 1,
-        ...newStory,
-        date: new Date().toLocaleDateString('en-US', { 
-          year: 'numeric', 
-          month: 'long', 
-          day: 'numeric' 
-        }),
-        likes: 0
-      };
-      setUserStories([story, ...userStories]);
-      setNewStory({ title: '', content: '', author: '' });
-      setShowForm(false);
-    }
-  };
-
+  // Placeholder function for disabled functionality
   const handleLike = (id: number) => {
-    setUserStories(userStories.map(story => 
-      story.id === id ? { ...story, likes: story.likes + 1 } : story
-    ));
+    console.log('Like functionality disabled:', id);
   };
 
   return (
@@ -165,7 +153,7 @@ export default function BlogPage() {
             {/* Coming Soon Banner */}
             <div className="mt-6 bg-gold/20 border border-gold/30 rounded-lg p-4 max-w-md mx-auto">
               <p className="text-stone font-medium">
-                🚧 <strong>Coming Soon!</strong> We're building a beautiful space for community stories.
+                🚧 <strong>Coming Soon!</strong> We&apos;re building a beautiful space for community stories.
               </p>
             </div>
           </div>
