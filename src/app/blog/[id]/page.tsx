@@ -273,6 +273,77 @@ const getBlogPost = (id: string): BlogPost | null => {
       date: "May 20, 2025",
       readTime: "4 min read",
       category: "Practical Tips"
+    },
+    '4': {
+      id: 4,
+      title: "The First 30 Minutes: How a Phone-Free Morning Can Change Your Life",
+      content: `
+        <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+          <h3 style="color: #4F6F52; margin-bottom: 15px;">TL;DR: Your Morning Sets the Tone</h3>
+          <p style="color: #5D6F77; margin-bottom: 15px;">We wake up and immediately reach for our phones, flooding our minds with notifications before we&apos;ve even had water.</p>
+          <p style="color: #5D6F77; margin-bottom: 15px;">Those first 30 minutes matter. How you spend them sets the tone for your entire day.</p>
+          <p style="color: #5D6F77; margin-bottom: 15px;">A phone-free morning isn&apos;t about perfection — it&apos;s about giving your brain a softer start.</p>
+          <p style="color: #5D6F77; margin-bottom: 0;">Try it tomorrow: analog alarm, stretch in bed, drink water, step outside. Just 30 minutes of quiet before the world rushes in.</p>
+        </div>
+        
+        <p style="margin-bottom: 20px;">You wake up. Your eyes are barely open, but your hand&apos;s already reaching for your phone.</p>
+        
+        <p style="margin-bottom: 20px;">Notifications, texts, news alerts, emails. The outside world crashes in before you&apos;ve even had a sip of water.</p>
+        
+        <p style="margin-bottom: 20px;">It&apos;s a habit so many of us have — and it&apos;s exhausting.</p>
+        
+        <p style="margin-bottom: 20px;">But what if your morning didn&apos;t start that way? What if, for just the first 30 minutes of your day, your phone stayed out of reach?</p>
+        
+        <p style="margin-bottom: 20px;">Not forever. Just long enough to hear yourself think.</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Why It Matters: Your Brain Deserves a Softer Start</strong></h2>
+        
+        <p style="margin-bottom: 20px;">The moment you check your phone, your brain goes from rest mode to react mode. Cortisol (your stress hormone) spikes. Your to-do list floods in. Social comparison kicks off before you&apos;ve even left bed.</p>
+        
+        <p style="margin-bottom: 20px;">Our brains weren&apos;t designed to wake up to 37 notifications.</p>
+        
+        <p style="margin-bottom: 20px;">Those first few moments after waking up are when your mind is most open. How you spend them sets the tone for the rest of your day — and it turns out, quiet wins.</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>What a Phone-Free Morning Actually Looks Like</strong></h2>
+        
+        <p style="margin-bottom: 20px;">This isn&apos;t about building a perfect 5AM routine with cold plunges and sun salutations. It&apos;s about making space. Even 30 minutes can make a difference.</p>
+        
+        <p style="margin-bottom: 20px;">Here&apos;s what that could look like:</p>
+        
+        <ul style="margin-bottom: 20px;">
+          <li>Wake up with an analog alarm (or leave your phone in another room overnight)</li>
+          <li>Stretch in bed or take a few deep breaths before getting up</li>
+          <li>Drink a glass of water, not scroll TikTok</li>
+          <li>Open a window. Step outside. Feel the air.</li>
+          <li>Journal a sentence or two — not for productivity, just to hear your own voice before the world&apos;s</li>
+          <li>Move your body — a walk, a few stretches, whatever feels right</li>
+        </ul>
+        
+        <p style="margin-bottom: 20px;">None of it needs to be fancy. Just something that&apos;s yours.</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Start Small: Try It Tomorrow</strong></h2>
+        
+        <p style="margin-bottom: 20px;">You don&apos;t need to commit forever. Just try one phone-free morning this week. Pick a day. Set things up the night before. Leave a book or notepad where your phone usually lives.</p>
+        
+        <p style="margin-bottom: 20px;">Notice how you feel.</p>
+        
+        <p style="margin-bottom: 20px;">You might be surprised how calm your day starts to feel — and how much easier it becomes to hear yourself think again.</p>
+        
+        <div style="background-color: #f0f7f0; padding: 30px; border-radius: 12px; margin: 40px 0; text-align: center; border-left: 4px solid #4F6F52;">
+          <blockquote style="font-size: 1.25rem; font-style: italic; color: #4F6F52; margin: 0; font-weight: 500;">
+            🌅 "How you spend the first 30 minutes of your day sets the tone for everything that follows."
+          </blockquote>
+          <p style="margin: 10px 0 0 0; color: #5D6F77; font-size: 0.9rem; font-weight: 500;">– QYD</p>
+        </div>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Want more quiet moments like this? We&apos;ve got you.</strong></h2>
+        
+        <p style="margin-bottom: 30px;">This is Quiet Your Device. Not about quitting. Just making space for what matters.</p>
+      `,
+      author: "QYD Team",
+      date: "June 25, 2025",
+      readTime: "4 min read",
+      category: "Mindfulness"
     }
   };
     return posts[id] || null;

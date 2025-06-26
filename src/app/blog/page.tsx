@@ -29,6 +29,15 @@ const blogPosts = [
     date: "May 20, 2025", 
     readTime: "4 min read",
     category: "Practical Tips"
+  },
+  {
+    id: 4,
+    title: "The First 30 Minutes: How a Phone-Free Morning Can Change Your Life",
+    excerpt: "What if, for just the first 30 minutes of your day, your phone stayed out of reach? Not forever. Just long enough to hear yourself think.",
+    author: "QYD Team",
+    date: "June 25, 2025",
+    readTime: "4 min read",
+    category: "Mindfulness"
   }
 ];
 
