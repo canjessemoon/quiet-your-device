@@ -2,7 +2,7 @@
 
 export default function NewsletterForm() {
   // Google Apps Script webhook URL for saving emails to Google Sheets
-  const WEBHOOK = "https://script.google.com/macros/s/AKfycbwIDkKBVfLJhd7S77nTZIr63veM_qPmzmHeu47sqCnwU-8F_82iRglMIaeoqORLYoQBQw/exec";
+  const WEBHOOK = "https://script.google.com/macros/s/AKfycbwwf1Icej1YKxCiLk83psXmDrZDBFxPeSgiMLFzlEWP3Z8e0xmGop3SDq54WWAHkfDbyA/exec";
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
