@@ -57,6 +57,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: 'https://quietyourdevice.com/blog/5',
+      lastModified: new Date('2025-08-29'),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
       url: 'https://quietyourdevice.com/privacy',
       lastModified: new Date(),
       changeFrequency: 'yearly',

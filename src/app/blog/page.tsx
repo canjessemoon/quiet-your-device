@@ -6,6 +6,15 @@ import Link from 'next/link';
 // Sample blog posts data (sorted newest first)
 const blogPosts = [
   {
+    id: 5,
+    title: "The 7-Day App Cleanse: Reset Your Home Screen (and Your Head)",
+    excerpt: "A one-week app cleanse to cut screen time without going off-grid: delete the time-sinks, reset notifications, and rebuild a calmer home screen.",
+    author: "QYD Team",
+    date: "August 29, 2025",
+    readTime: "8 min read",
+    category: "Practical Tips"
+  },
+  {
     id: 4,
     title: "The First 30 Minutes: How a Phone-Free Morning Can Change Your Life",
     excerpt: "What if, for just the first 30 minutes of your day, your phone stayed out of reach? Not forever. Just long enough to hear yourself think.",

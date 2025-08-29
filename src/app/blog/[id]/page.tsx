@@ -390,6 +390,138 @@ const getBlogPost = (id: string): BlogPost | null => {
       date: "June 25, 2025",
       readTime: "4 min read",
       category: "Mindfulness"
+    },
+    '5': {
+      id: 5,
+      title: "The 7-Day App Cleanse: Reset Your Home Screen (and Your Head)",
+      description: "A one-week app cleanse to cut screen time without going off-grid: delete the time-sinks, reset notifications, and rebuild a calmer home screen.",
+      content: `
+        <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+          <h3 style="color: #4F6F52; margin-bottom: 15px;">TL;DR: Reset Your Digital Life in One Week</h3>
+          <p style="color: #5D6F77; margin-bottom: 15px;">Audit your apps, delete the time-sinks, turn off default notifications, and rebuild a calmer home screen in a week.</p>
+          <p style="color: #5D6F77; margin-bottom: 15px;">Track pickups + daily average; keep only what serves you.</p>
+          <p style="color: #5D6F77; margin-bottom: 0;">It's like Marie Kondo for your phone — but you get to keep the essentials.</p>
+        </div>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Why an "App Cleanse"?</strong></h2>
+        
+        <p style="margin-bottom: 20px;">We tidy closets; we rarely tidy phones. An app cleanse is a short, structured reset: remove what hijacks attention, keep what supports your life, and rebuild with intention.</p>
+        
+        <p style="margin-bottom: 20px;">Think of it as Marie Kondo for your digital life — but instead of asking "does this spark joy?", ask "does this serve my values?"</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Before You Start (10 minutes)</strong></h2>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;"><strong>📊 Baseline:</strong></h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">Note your Daily Average, Pickups, and Most Used apps (Screen Time on iOS / Digital Wellbeing on Android).</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;"><strong>💾 Backup:</strong></h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">Ensure iCloud/Google backup is current.</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;"><strong>👥 Partner up:</strong></h3>
+        <p style="margin-bottom: 20px; margin-left: 20px;">Ask a friend to join — accountability helps.</p>
+        
+        <div style="background-color: #f0f7f0; padding: 30px; border-radius: 12px; margin: 40px 0; text-align: center; border-left: 4px solid #4F6F52;">
+          <blockquote style="font-size: 1.25rem; font-style: italic; color: #4F6F52; margin: 0; font-weight: 500;">
+            📱 "A cleaner phone leads to a clearer mind."
+          </blockquote>
+        </div>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>The 7-Day Plan</strong></h2>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 0 (Prep):</strong></h3>
+        <p style="margin-bottom: 20px;">Set a simple goal: "Reduce daily average by 30 minutes" or "Under 60 pickups/day."</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 1 — Triage Every App</strong></h3>
+        <p style="margin-bottom: 15px;">Create 5 lists:</p>
+        <ul style="margin-bottom: 20px;">
+          <li><strong>Essential:</strong> banking, maps, messages, authenticator</li>
+          <li><strong>Useful weekly:</strong> transit, grocery, airline</li>
+          <li><strong>Create/learn:</strong> camera, notes, Kindle, music creation</li>
+          <li><strong>Social/entertainment:</strong> feeds, short-form video, gaming</li>
+          <li><strong>"Slot machines" (delete-prone):</strong> infinite scroll + variable rewards</li>
+        </ul>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 2 — Delete and Offload (20% Rule)</strong></h3>
+        <p style="margin-bottom: 20px;">Remove at least one in five apps — start with "slot machines." Offload rarely used utilities (you can still re-download).</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 3 — Notifications from Zero</strong></h3>
+        <p style="margin-bottom: 15px;">Turn all app notifications off. Add back only:</p>
+        <ul style="margin-bottom: 20px;">
+          <li>Person-to-person messages</li>
+          <li>Ride/food delivery updates</li>
+          <li>Banking fraud alerts</li>
+        </ul>
+        <p style="margin-bottom: 20px;">No badges for social. No sounds/vibrate unless time-critical.</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 4 — Home Screen Surgery</strong></h3>
+        <ul style="margin-bottom: 20px;">
+          <li>One home screen only</li>
+          <li>Dock: 3–4 true essentials</li>
+          <li>Grid by verbs: Pay, Move, Read, Capture (not brands)</li>
+          <li>Hide everything else in the App Library/Drawer</li>
+        </ul>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 5 — Time Guards</strong></h3>
+        <ul style="margin-bottom: 20px;">
+          <li>Focus/DND: work, family, sleep</li>
+          <li>App limits: e.g., Social total ≤ 30–45 min/day</li>
+          <li>Downtime/Bedtime: apps off after 9 pm (keep phone + texts if needed)</li>
+        </ul>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 6 — Friction Hacks</strong></h3>
+        <ul style="margin-bottom: 20px;">
+          <li>Grayscale after 8 pm</li>
+          <li>Remove addictive widgets from home screen</li>
+          <li>Log out of the most tempting app; require Face/Passcode to open</li>
+        </ul>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 7 — Rebuild with Intention</strong></h3>
+        <p style="margin-bottom: 20px;">Add back up to five "create/learn" apps you truly use. Keep the rest off. Re-check Screen Time vs Day 0.</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Quick How-To (High Level)</strong></h2>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">📱 iOS (Settings):</h3>
+        <p style="margin-bottom: 20px;">Screen Time → App Limits / Downtime • Focus → Allowed notifications • Display → Color Filters (grayscale) • Notifications → turn off by default.</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">🤖 Android (varies):</h3>
+        <p style="margin-bottom: 20px;">Digital Wellbeing → Dashboard / Focus mode / Bedtime • Notifications → per-app • Display → Grayscale (Monochrome) or Bedtime Mode.</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Track & Reflect</strong></h2>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">📊 Metrics:</h3>
+        <p style="margin-bottom: 20px;">Daily Average, Pickups, Notifications received, Top 3 most-used apps.</p>
+        
+        <h3 style="margin-top: 25px; margin-bottom: 15px;">💭 Feel:</h3>
+        <p style="margin-bottom: 20px;">Energy after 9 pm? Easier mornings? Fewer "reflex opens"?</p>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Maintenance</strong></h2>
+        
+        <ul style="margin-bottom: 20px;">
+          <li><strong>Weekly "Trash Day" (5 min):</strong> delete 1–2 apps, review badges</li>
+          <li><strong>Monthly review (10 min):</strong> re-sort home screen, tighten limits</li>
+        </ul>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>If You've Got Kids</strong></h2>
+        
+        <p style="margin-bottom: 20px;">Use a shared Focus at dinner/bedtime. Make it a family challenge: kids "earn" adding back one creative app (stop-motion, drawing) after seven days.</p>
+        
+        <div style="background-color: #f0f7f0; padding: 30px; border-radius: 12px; margin: 40px 0; text-align: center; border-left: 4px solid #4F6F52;">
+          <blockquote style="font-size: 1.25rem; font-style: italic; color: #4F6F52; margin: 0; font-weight: 500;">
+            🧹 "Declutter your apps, declutter your mind."
+          </blockquote>
+          <p style="margin: 10px 0 0 0; color: #5D6F77; font-size: 0.9rem; font-weight: 500;">– QYD</p>
+        </div>
+        
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Ready to Start Your App Cleanse?</strong></h2>
+        
+        <p style="margin-bottom: 20px;">Seven days. A cleaner phone. A clearer mind.</p>
+        
+        <p style="margin-bottom: 30px;">Start tomorrow with Day 0, and remember — this isn't about perfection. It's about intention.</p>
+      `,
+      author: "QYD Team",
+      date: "August 29, 2025",
+      readTime: "8 min read",
+      category: "Practical Tips"
     }
   };
     return posts[id] || null;
@@ -495,6 +627,26 @@ export default async function BlogPost({ params }: BlogPostProps) {
               prose-strong:text-fern prose-strong:font-semibold"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
+        </div>
+      </section>
+
+      {/* Share & Subscribe */}
+      <section className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center bg-mist p-8 rounded-xl">
+            <h2 className="text-2xl font-bold text-fern mb-4">
+              Enjoyed this article?
+            </h2>
+            <p className="text-stone mb-6">
+              Get more insights on digital wellness delivered to your inbox.
+            </p>
+            <Link 
+              href="/#newsletter"
+              className="bg-fern hover:bg-fern/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-block"
+            >
+              Subscribe to Newsletter
+            </Link>
+          </div>
         </div>
       </section>
 
