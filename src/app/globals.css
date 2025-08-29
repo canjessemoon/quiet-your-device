@@ -3,14 +3,6 @@
 :root {
   --background: #F9F7F3; /* QYD beige */
   --foreground: #5D6F77; /* QYD stone */
-  
-  /* QYD Brand Colors */
-  --mist: #DCE8DC;
-  --sage: #A4B2A3;
-  --fern: #4F6F52;
-  --beige: #F9F7F3;
-  --stone: #5D6F77;
-  --gold: #D8C8A5;
 }
 
 @media (prefers-color-scheme: dark) {

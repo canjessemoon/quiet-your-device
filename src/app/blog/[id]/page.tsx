@@ -633,16 +633,16 @@ export default async function BlogPost({ params }: BlogPostProps) {
       {/* Share & Subscribe */}
       <section className="bg-white py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center bg-mist p-8 rounded-xl">
-            <h2 className="text-2xl font-bold text-fern mb-4">
+          <div className="text-center bg-green-50 p-8 rounded-xl border border-green-100">
+            <h2 className="text-2xl font-bold text-green-800 mb-4">
               Enjoyed this article?
             </h2>
-            <p className="text-stone mb-6">
+            <p className="text-gray-700 mb-6">
               Get more insights on digital wellness delivered to your inbox.
             </p>
             <Link 
               href="/#newsletter"
-              className="bg-fern hover:bg-fern/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-block"
+              className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-block"
             >
               Subscribe to Newsletter
             </Link>
