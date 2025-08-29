@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import NewsletterForm from '@/components/NewsletterForm';
 
 export default function Home() {
   return (
@@ -166,36 +167,10 @@ export default function Home() {
               </h3>
               <p className="text-stone mb-6">
                 Weekly digital wellness tips, new blog posts, and exclusive insights from the QYD team.
-              </p>              {/* Kit Signup Form */}
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                {/* Try iframe first */}
-                <iframe 
-                  src="https://quiet-your-device.kit.com/9f3291463d" 
-                  style={{
-                    width: '100%',
-                    height: '300px',
-                    border: 'none',
-                    borderRadius: '8px'
-                  }}
-                  title="Newsletter Signup"
-                  loading="lazy"
-                />
-                
-                {/* Fallback option */}
-                <div className="mt-4 text-center">
-                  <p className="text-sm text-sage mb-2">
-                    Having trouble with the form above?
-                  </p>
-                  <Link 
-                    href="https://quiet-your-device.kit.com/9f3291463d"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-fern hover:text-fern/80 underline text-sm font-medium"
-                  >
-                    Click here to subscribe directly →
-                  </Link>
-                </div>
-              </div>
+              </p>
+              
+              {/* Newsletter Signup Form */}
+              <NewsletterForm />
               
               <p className="text-sm text-sage mt-4">
                 ✨ Unsubscribe anytime. We respect your inbox and your time.
