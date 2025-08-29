@@ -9,49 +9,49 @@ export default function Challenge() {
       title: "Phone-Free Morning",
       description: "Keep your phone in another room for the first hour after waking up",
       duration: "1 hour",
-      image: "/detox-cards/day1.png"
+      image: "/detox-cards/QYD_Day_01_v2.png"
     },
     {
       day: 2,
       title: "Notification Cleanse",
       description: "Turn off all non-essential notifications on your phone",
       duration: "10 minutes",
-      image: "/detox-cards/day2.png"
+      image: "/detox-cards/QYD_Day_02_v2.png"
     },
     {
       day: 3,
       title: "Mindful Meals",
       description: "Eat one meal today without any screens",
       duration: "30 minutes",
-      image: "/detox-cards/day3.png"
+      image: "/detox-cards/QYD_Day_03_v2.png"
     },
     {
       day: 4,
       title: "Phone-Free Walk",
       description: "Take a 15-minute walk without your phone",
       duration: "15 minutes",
-      image: "/detox-cards/day4.png"
+      image: "/detox-cards/QYD_Day_04_v2.png"
     },
     {
       day: 5,
       title: "Real Conversations",
       description: "Have a phone-free conversation with someone",
       duration: "20 minutes",
-      image: "/detox-cards/day5.png"
+      image: "/detox-cards/QYD_Day_05_v2.png"
     },
     {
       day: 6,
       title: "Creative Time",
       description: "Spend 30 minutes on a creative activity without digital input",
       duration: "30 minutes",
-      image: "/detox-cards/day6.png"
+      image: "/detox-cards/QYD_Day_06_v2.png"
     },
     {
       day: 7,
       title: "Digital Sabbath",
       description: "Take a full morning off from all non-essential technology",
       duration: "3+ hours",
-      image: "/detox-cards/day7.png"
+      image: "/detox-cards/QYD_Day_07_v2.png"
     }
   ];
 
@@ -182,6 +182,29 @@ export default function Challenge() {
                 </div>
               </div>
             ))}
+          </div>
+          
+          {/* Download PDF Section */}
+          <div className="text-center mt-12">
+            <div className="bg-white rounded-xl shadow-sm border border-green-200 p-8 max-w-md mx-auto">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">📄</span>
+              </div>
+              <h3 className="text-xl font-bold text-green-800 mb-3">
+                Download All Cards
+              </h3>
+              <p className="text-gray-600 mb-6 text-sm">
+                Get the complete 7-day challenge as a printable PDF
+              </p>
+              <a 
+                href="/detox-cards/QYD_7-Day_Challenge_Cards_v2.pdf"
+                download="QYD_7-Day_Challenge_Cards_v2.pdf"
+                className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
+              >
+                <span>📥</span>
+                Download PDF
+              </a>
+            </div>
           </div>
         </div>
       </section>
