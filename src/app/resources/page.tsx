@@ -1,4 +1,27 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Digital Wellness Resources & Tools | Quiet Your Device",
+  description: "Discover curated apps, books, and tools to help you build a healthier relationship with technology. From meditation apps to digital detox resources.",
+  alternates: {
+    canonical: 'https://quietyourdevice.com/resources',
+  },
+  openGraph: {
+    title: "Digital Wellness Resources & Tools | Quiet Your Device",
+    description: "Discover curated apps, books, and tools to help you build a healthier relationship with technology.",
+    type: 'website',
+    url: 'https://quietyourdevice.com/resources',
+    siteName: 'Quiet Your Device',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Digital Wellness Resources & Tools | Quiet Your Device",
+    description: "Discover curated apps, books, and tools to help you build a healthier relationship with technology.",
+    creator: '@quietyourdevice',
+  },
+  keywords: ['digital wellness apps', 'meditation apps', 'screen time tools', 'digital detox resources', 'mindfulness tools', 'healthy technology'],
+};
 
 export default function Resources() {
   return (

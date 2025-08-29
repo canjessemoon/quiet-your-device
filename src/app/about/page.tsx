@@ -1,3 +1,27 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About QYD | Quiet Your Device",
+  description: "Learn about our mission to help people develop healthier relationships with technology. Discover why we created Quiet Your Device and our gentle, non-preachy approach to digital wellness.",
+  alternates: {
+    canonical: 'https://quietyourdevice.com/about',
+  },
+  openGraph: {
+    title: "About QYD | Quiet Your Device",
+    description: "Learn about our mission to help people develop healthier relationships with technology and our gentle approach to digital wellness.",
+    type: 'website',
+    url: 'https://quietyourdevice.com/about',
+    siteName: 'Quiet Your Device',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "About QYD | Quiet Your Device",
+    description: "Learn about our mission to help people develop healthier relationships with technology.",
+    creator: '@quietyourdevice',
+  },
+  keywords: ['digital wellness mission', 'quiet your device story', 'healthy technology habits', 'mindful tech use'],
+};
+
 export default function About() {
   return (
     <div className="py-16">

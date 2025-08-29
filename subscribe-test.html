@@ -1,0 +1,11 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Apps Script POST test</title>
+<form method="post" action="https://script.google.com/macros/s/AKfycbwwf1Icej1YKxCiLk83psXmDrZDBFxPeSgiMLFzlEWP3Z8e0xmGop3SDq54WWAHkfDbyA/exec">
+  <input name="email" type="email" placeholder="you@example.com" required>
+  <input name="ua" type="hidden" value="local-form-test">
+  <!-- Honeypot: keep empty -->
+  <input name="website" type="text" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off">
+  <button type="submit">Send</button>
+</form>
+<p>Submit once, then check the <b>Subscribers</b> sheet.</p>

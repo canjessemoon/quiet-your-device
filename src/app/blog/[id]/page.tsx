@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 
 interface BlogPost {
   id: number;
@@ -8,6 +9,7 @@ interface BlogPost {
   date: string;
   readTime: string;
   category: string;
+  description: string;
 }
 
 interface BlogPostProps {
@@ -16,11 +18,52 @@ interface BlogPostProps {
   }>;
 }
 
+// Generate metadata for each blog post
+export async function generateMetadata({ params }: BlogPostProps): Promise<Metadata> {
+  const { id } = await params;
+  const post = getBlogPost(id);
+  
+  if (!post) {
+    return {
+      title: 'Post Not Found | Quiet Your Device',
+      description: 'Sorry, we couldn\'t find the blog post you\'re looking for.',
+    };
+  }
+
+  return {
+    title: `${post.title} | Quiet Your Device`,
+    description: post.description,
+    alternates: {
+      canonical: `https://quietyourdevice.com/blog/${id}`,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      type: 'article',
+      publishedTime: post.date,
+      authors: [post.author],
+      tags: [post.category, 'Digital Wellness', 'Mindfulness', 'Technology Balance'],
+      url: `https://quietyourdevice.com/blog/${id}`,
+      siteName: 'Quiet Your Device',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
+      creator: '@quietyourdevice',
+    },
+    authors: [{ name: post.author }],
+    category: post.category,
+    keywords: ['digital wellness', 'mindfulness', 'phone addiction', 'screen time', 'digital detox', 'technology balance'],
+  };
+}
+
 // This would typically come from a CMS or database
 const getBlogPost = (id: string): BlogPost | null => {
   const posts: Record<string, BlogPost> = {    '1': {
       id: 1,
       title: "Your Phone's Buzz Is Stressing You Out (And What to Do About It)",
+      description: "Discover how phone notifications trigger stress hormones and learn practical strategies to break free from notification anxiety for better mental health.",
       content: `
         <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
           <h3 style="color: #4F6F52; margin-bottom: 10px;">TL;DR</h3>
@@ -84,6 +127,7 @@ const getBlogPost = (id: string): BlogPost | null => {
       category: "Mindfulness"
     },    '2': {
       id: 2,      title: "The Science of Why You Can't Stop Checking Your Phone",
+      description: "Understanding the neuroscience behind phone addiction - from dopamine loops to variable reward schedules - and how to work with your brain, not against it.",
       content: `
         <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
           <h3 style="color: #4F6F52; margin-bottom: 10px;">TL;DR</h3>
@@ -160,6 +204,7 @@ const getBlogPost = (id: string): BlogPost | null => {
     },    '3': {
       id: 3,
       title: "How to Create Phone-Free Spaces That Support Real Rest",
+      description: "Transform your home into a sanctuary with practical tips for creating phone-free zones that promote genuine relaxation, connection, and peace.",
       content: `
         <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
           <h3 style="color: #4F6F52; margin-bottom: 15px;">TL;DR: How to Create Sacred, Phone-Free Spaces at Home</h3>
@@ -277,6 +322,7 @@ const getBlogPost = (id: string): BlogPost | null => {
     '4': {
       id: 4,
       title: "The First 30 Minutes: How a Phone-Free Morning Can Change Your Life",
+      description: "Discover how starting your day without screens can transform your mental clarity, reduce stress, and set a peaceful tone for everything that follows.",
       content: `
         <div style="background-color: #f0f7f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
           <h3 style="color: #4F6F52; margin-bottom: 15px;">TL;DR: Your Morning Sets the Tone</h3>
@@ -370,8 +416,43 @@ export default async function BlogPost({ params }: BlogPostProps) {
     );
   }
 
+  // JSON-LD structured data for SEO
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.description,
+    image: 'https://quietyourdevice.com/images/hero.jpg', // Default image
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: post.author,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Quiet Your Device',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://quietyourdevice.com/images/qyd-logo.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://quietyourdevice.com/blog/${id}`,
+    },
+    keywords: post.category,
+    articleSection: 'Digital Wellness',
+    wordCount: post.content.length,
+  };
+
   return (
-    <main className="bg-beige min-h-screen">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <main className="bg-beige min-h-screen">
       {/* Article Header */}
       <section className="bg-white py-16">
         <div className="max-w-4xl mx-auto px-4">
@@ -454,6 +535,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
         </div>
       </section>
     </main>
+    </>
   );
 }
 // Force change 

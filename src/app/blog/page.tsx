@@ -3,33 +3,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-// Sample blog posts data
+// Sample blog posts data (sorted newest first)
 const blogPosts = [
-  {
-    id: 1,
-    title: "Your Phone's Buzz Is Stressing You Out (And What to Do About It)",
-    excerpt: "Every ping, buzz, and flash creates a micro-stress response in our nervous system. Here's how to break the cycle and reclaim your peace of mind.",
-    author: "QYD Team",
-    date: "May 28, 2025",
-    readTime: "5 min read",
-    category: "Mindfulness"
-  },  {
-    id: 2,
-    title: "The Science of Why You Can't Stop Checking Your Phone",
-    excerpt: "Understanding the neuroscience behind our phone addiction can help us develop more compassionate and effective strategies for change.",
-    author: "QYD Team", 
-    date: "May 25, 2025",
-    readTime: "7 min read",
-    category: "Science"
-  },  {
-    id: 3,
-    title: "How to Create Phone-Free Spaces That Support Real Rest",
-    excerpt: "How to designate phone-free zones in your home that actually work, plus why your bedroom should be the first place to start.",
-    author: "QYD Team",
-    date: "May 20, 2025", 
-    readTime: "4 min read",
-    category: "Practical Tips"
-  },
   {
     id: 4,
     title: "The First 30 Minutes: How a Phone-Free Morning Can Change Your Life",
@@ -38,6 +13,33 @@ const blogPosts = [
     date: "June 25, 2025",
     readTime: "4 min read",
     category: "Mindfulness"
+  },
+  {
+    id: 1,
+    title: "Your Phone's Buzz Is Stressing You Out (And What to Do About It)",
+    excerpt: "Every ping, buzz, and flash creates a micro-stress response in our nervous system. Here's how to break the cycle and reclaim your peace of mind.",
+    author: "QYD Team",
+    date: "May 28, 2025",
+    readTime: "5 min read",
+    category: "Mindfulness"
+  },
+  {
+    id: 2,
+    title: "The Science of Why You Can't Stop Checking Your Phone",
+    excerpt: "Understanding the neuroscience behind our phone addiction can help us develop more compassionate and effective strategies for change.",
+    author: "QYD Team", 
+    date: "May 25, 2025",
+    readTime: "7 min read",
+    category: "Science"
+  },
+  {
+    id: 3,
+    title: "How to Create Phone-Free Spaces That Support Real Rest",
+    excerpt: "How to designate phone-free zones in your home that actually work, plus why your bedroom should be the first place to start.",
+    author: "QYD Team",
+    date: "May 20, 2025", 
+    readTime: "4 min read",
+    category: "Practical Tips"
   }
 ];
 
