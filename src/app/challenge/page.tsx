@@ -158,7 +158,7 @@ export default function Challenge() {
                     src={challenge.image}
                     alt={`Day ${challenge.day}: ${challenge.title}`}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-200"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
                 <div className="p-6">
