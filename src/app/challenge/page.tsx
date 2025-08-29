@@ -3,50 +3,54 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Challenge() {
-  const downloadCards = () => {
-    // Placeholder for download functionality
-    alert('Download functionality coming soon! For now, you can right-click and save individual cards.');
-  };  const detoxCards = [
+  const challenges = [
     {
       day: 1,
       title: "Phone-Free Morning",
-      description: "Keep your phone in another room for the first hour after waking up.",
+      description: "Keep your phone in another room for the first hour after waking up",
+      duration: "1 hour",
       image: "/detox-cards/day1.png"
     },
     {
       day: 2,
       title: "Notification Cleanse",
-      description: "Turn off all non-essential notifications on your phone.",
+      description: "Turn off all non-essential notifications on your phone",
+      duration: "10 minutes",
       image: "/detox-cards/day2.png"
     },
     {
       day: 3,
       title: "Mindful Meals",
-      description: "Eat one meal today without any screens.",
+      description: "Eat one meal today without any screens",
+      duration: "30 minutes",
       image: "/detox-cards/day3.png"
     },
     {
       day: 4,
       title: "Phone-Free Walk",
-      description: "Take a 15-minute walk without your phone.",
+      description: "Take a 15-minute walk without your phone",
+      duration: "15 minutes",
       image: "/detox-cards/day4.png"
     },
     {
       day: 5,
       title: "Real Conversations",
-      description: "Have a phone-free conversation with someone.",
+      description: "Have a phone-free conversation with someone",
+      duration: "20 minutes",
       image: "/detox-cards/day5.png"
     },
     {
       day: 6,
       title: "Creative Time",
-      description: "Spend 30 minutes on a creative activity without digital input.",
+      description: "Spend 30 minutes on a creative activity without digital input",
+      duration: "30 minutes",
       image: "/detox-cards/day6.png"
     },
     {
       day: 7,
       title: "Digital Sabbath",
-      description: "Take a full morning or afternoon off from all non-essential technology.",
+      description: "Take a full morning off from all non-essential technology",
+      duration: "3+ hours",
       image: "/detox-cards/day7.png"
     }
   ];
@@ -63,17 +67,11 @@ export default function Challenge() {
           </p>            <div className="bg-white/10 p-6 rounded-lg max-w-md mx-auto">
             <h3 className="text-lg font-semibold mb-2 text-fern">What You&apos;ll Get:</h3>
             <ul className="text-left space-y-2 text-sm text-stone">
-              <li>• Daily challenges that take 5-10 minutes</li>
-              <li>• Downloadable card deck (mobile + print)</li>
+              <li>• Daily challenges that take 5-30 minutes</li>
+              <li>• Progressive difficulty that builds habits</li>
               <li>• Science-backed strategies</li>
               <li>• No judgment, just gentle guidance</li>
             </ul>
-            <button 
-              onClick={downloadCards}
-              className="mt-4 bg-gold hover:bg-gold/90 text-stone px-6 py-2 rounded-full font-semibold transition-colors w-full"
-            >
-              📥 Download Cards
-            </button>
           </div>
         </div>
       </section>
@@ -149,53 +147,38 @@ export default function Challenge() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {detoxCards.map((card) => (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {challenges.map((challenge) => (
               <div 
-                key={card.day} 
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
+                key={challenge.day} 
+                className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden group cursor-pointer border border-mist"
               >
-                <div className="aspect-[3/4] relative">
+                <div className="aspect-[4/3] relative">
                   <Image
-                    src={card.image}
-                    alt={`Day ${card.day}: ${card.title}`}
+                    src={challenge.image}
+                    alt={`Day ${challenge.day}: ${challenge.title}`}
                     fill
-                    className="object-cover"
+                    className="object-cover group-hover:scale-105 transition-transform duration-200"
                   />
                 </div>
-                <div className="p-4">
-                  <div className="flex items-center mb-2">
-                    <span className="bg-fern text-white text-sm font-bold px-2 py-1 rounded-full mr-2">
-                      Day {card.day}
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="bg-fern text-white text-sm font-semibold px-3 py-1 rounded-full">
+                      Day {challenge.day}
+                    </span>
+                    <span className="text-xs text-sage font-medium">
+                      {challenge.duration}
                     </span>
                   </div>
-                  <h3 className="font-semibold text-fern mb-2">{card.title}</h3>
-                  <p className="text-sm text-stone">{card.description}</p>
-                </div>
-              </div>
-            ))}
-            
-            {/* Placeholder cards for remaining days */}
-            {[3, 4, 5, 6, 7].map((day) => (
-              <div 
-                key={day} 
-                className="bg-white rounded-lg shadow-md overflow-hidden opacity-50"
-              >
-                <div className="aspect-[3/4] bg-gradient-to-br from-mist to-sage flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <div className="text-4xl mb-2">📅</div>
-                    <div className="font-bold">Day {day}</div>
-                    <div className="text-sm">Coming Soon</div>
-                  </div>
-                </div>
-                <div className="p-4">
-                  <div className="flex items-center mb-2">
-                    <span className="bg-sage text-white text-sm font-bold px-2 py-1 rounded-full mr-2">
-                      Day {day}
-                    </span>
-                  </div>
-                  <h3 className="font-semibold text-stone mb-2">Challenge {day}</h3>
-                  <p className="text-sm text-stone/60">More challenges coming soon...</p>
+                  <h3 className="font-semibold text-fern mb-2 leading-tight">
+                    {challenge.title}
+                  </h3>
+                  <p className="text-sm text-stone leading-relaxed mb-4">
+                    {challenge.description}
+                  </p>
+                  <button className="text-fern text-sm font-medium hover:text-fern/80 transition-colors">
+                    Start Day {challenge.day} →
+                  </button>
                 </div>
               </div>
             ))}
@@ -227,7 +210,8 @@ export default function Challenge() {
               </div>
             </div>
             
-            <div className="bg-mist p-6 rounded-lg">              <p className="italic text-stone mb-4">
+            <div className="bg-mist p-6 rounded-lg">
+              <p className="italic text-stone mb-4">
                 &quot;I felt like I was always &apos;on call.&apos; Disconnecting helped me feel present 
                 with my family again.&quot;
               </p>
@@ -243,7 +227,9 @@ export default function Challenge() {
             </div>
           </div>
         </div>
-      </section>      {/* Call to Action */}
+      </section>
+
+      {/* Call to Action */}
       <section className="py-16 bg-fern">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4 text-beige">
@@ -254,17 +240,19 @@ export default function Challenge() {
             Just you, taking back control of your time and attention.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">            <Link 
-              href="/challenge"
-              className="bg-white text-fern px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/90 transition-colors inline-block"
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button 
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="bg-white text-fern px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/90 transition-colors"
             >
-              Begin Day 1 Challenge
-            </Link><a 
+              Start Day 1 Now
+            </button>
+            <Link 
               href="/about"
               className="border-2 border-beige text-beige px-8 py-4 rounded-lg text-lg font-semibold hover:bg-beige hover:text-fern transition-colors inline-block"
             >
               Learn More About QYD
-            </a>
+            </Link>
           </div>
         </div>
       </section>
