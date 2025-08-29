@@ -1,57 +1,111 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Challenge() {
+  const [selectedChallenge, setSelectedChallenge] = useState<number | null>(null);
   const challenges = [
     {
       day: 1,
-      title: "Phone-Free Morning",
-      description: "Keep your phone in another room for the first hour after waking up",
-      duration: "1 hour",
-      image: "/detox-cards/QYD_Day_01_v2.png"
-    },
-    {
-      day: 2,
       title: "Notification Cleanse",
       description: "Turn off all non-essential notifications on your phone",
       duration: "10 minutes",
-      image: "/detox-cards/QYD_Day_02_v2.png"
+      image: "/detox-cards/QYD_Day_01_v2.png",
+      fullDescription: "Reduce the number of times your phone demands your attention throughout the day. Go through your notification settings and turn off everything except truly essential alerts.",
+      tips: [
+        "Keep only calls, texts, and emergency alerts",
+        "Turn off social media, email, and app notifications",
+        "Use Do Not Disturb during focused work time",
+        "Check apps when you choose to, not when they tell you to"
+      ]
+    },
+    {
+      day: 2,
+      title: "30 Minutes Phone-Free",
+      description: "Spend 30 minutes away from your phone today",
+      duration: "30 minutes",
+      image: "/detox-cards/QYD_Day_02_v2.png",
+      fullDescription: "Take a dedicated break from your phone for 30 minutes. Use this time to reconnect with yourself and your immediate environment without digital distractions.",
+      tips: [
+        "Put your phone in another room or drawer",
+        "Choose an activity you enjoy - reading, walking, cooking",
+        "Notice any urges to check your phone and let them pass",
+        "Use this time for reflection or mindful awareness"
+      ]
     },
     {
       day: 3,
       title: "Mindful Meals",
       description: "Eat one meal today without any screens",
       duration: "30 minutes",
-      image: "/detox-cards/QYD_Day_03_v2.png"
+      image: "/detox-cards/QYD_Day_03_v2.png",
+      fullDescription: "Rediscover the simple pleasure of eating without distraction. Choose one meal today to eat mindfully, paying attention to taste, texture, and the company around you.",
+      tips: [
+        "Put all devices away from the table",
+        "Chew slowly and notice flavors",
+        "If eating with others, engage in conversation",
+        "Practice gratitude for your food"
+      ]
     },
     {
       day: 4,
-      title: "Phone-Free Walk",
-      description: "Take a 15-minute walk without your phone",
+      title: "App Cleanse",
+      description: "Delete or hide apps that waste your time",
       duration: "15 minutes",
-      image: "/detox-cards/QYD_Day_04_v2.png"
+      image: "/detox-cards/QYD_Day_04_v2.png",
+      fullDescription: "Clean up your phone by removing or organizing apps that don't serve your well-being. Focus on apps that drain your time and attention without adding value.",
+      tips: [
+        "Delete apps you use mindlessly or compulsively",
+        "Move time-wasting apps off your home screen",
+        "Keep only apps that serve a clear purpose",
+        "Notice which apps you reach for out of habit"
+      ]
     },
     {
       day: 5,
       title: "Real Conversations",
-      description: "Have a phone-free conversation with someone",
-      duration: "20 minutes",
-      image: "/detox-cards/QYD_Day_05_v2.png"
+      description: "Have one phone-free conversation today (10–20 minutes)",
+      duration: "10-20 minutes",
+      image: "/detox-cards/QYD_Day_05_v2.png",
+      fullDescription: "Connect with another person without the barrier of screens. Put phones away and have a genuine, focused conversation with a friend, family member, or colleague. Removing the device signals attention and deepens rapport.",
+      tips: [
+        "Put phones in another room and use Do Not Disturb",
+        "Sit face-to-face for better connection",
+        "Make eye contact and actively listen",
+        "Notice how the conversation feels different without phones nearby",
+        "Boost: Make dinner a phone-free conversation"
+      ]
     },
     {
       day: 6,
       title: "Creative Time",
-      description: "Spend 30 minutes on a creative activity without digital input",
+      description: "Spend 30 minutes creating with no digital input",
       duration: "30 minutes",
-      image: "/detox-cards/QYD_Day_06_v2.png"
+      image: "/detox-cards/QYD_Day_06_v2.png",
+      fullDescription: "Rediscover the joy of creating with your hands. Spend time on any creative activity that doesn't involve screens. Hands-on making restores focus and sense of progress.",
+      tips: [
+        "Pick pen & paper, an instrument, or a craft",
+        "Set a simple timer for 30 minutes",
+        "Don't worry about the outcome, focus on the process",
+        "Notice how your mind feels when creating",
+        "Boost: Repeat tomorrow or extend to 45–60 minutes"
+      ]
     },
     {
       day: 7,
-      title: "Digital Sabbath",
-      description: "Take a full morning off from all non-essential technology",
-      duration: "3+ hours",
-      image: "/detox-cards/QYD_Day_07_v2.png"
+      title: "Phone-Free Walk",
+      description: "Take a 15-minute walk without your phone",
+      duration: "15 minutes",
+      image: "/detox-cards/QYD_Day_07_v2.png",
+      fullDescription: "Step outside and reconnect with the world around you. Leave your phone behind and take a short walk. A brief movement break resets mood and attention.",
+      tips: [
+        "Tell someone your route for safety",
+        "Leave the phone at home or in the car",
+        "Notice five sights or sounds you usually miss",
+        "Let your mind wander freely",
+        "Boost: Go for 30 minutes or choose a nature path"
+      ]
     }
   ];
 
@@ -151,6 +205,7 @@ export default function Challenge() {
             {challenges.map((challenge) => (
               <div 
                 key={challenge.day} 
+                onClick={() => setSelectedChallenge(challenge.day)}
                 className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden group cursor-pointer border border-mist"
               >
                 <div className="aspect-[4/3] relative">
@@ -197,8 +252,8 @@ export default function Challenge() {
                 Get the complete 7-day challenge as a printable PDF
               </p>
               <a 
-                href="/detox-cards/QYD_7-Day_Challenge_Cards_v2.pdf"
-                download="QYD_7-Day_Challenge_Cards_v2.pdf"
+                href="/detox-cards/QYD_7-Day_Challenge_Cards_v2_FINAL.pdf"
+                download="QYD_7-Day_Challenge_Cards_v2_FINAL.pdf"
                 className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
               >
                 <span>📥</span>
@@ -279,6 +334,81 @@ export default function Challenge() {
           </div>
         </div>
       </section>
+
+      {/* Modal for Challenge Details */}
+      {selectedChallenge && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+          <div className="bg-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="p-6">
+              {/* Header */}
+              <div className="flex justify-between items-start mb-6">
+                <div className="flex items-center gap-4">
+                  <span className="bg-green-700 text-white text-sm font-semibold px-3 py-1 rounded-full">
+                    Day {selectedChallenge}
+                  </span>
+                  <span className="text-sm text-gray-500 font-medium">
+                    {challenges.find(c => c.day === selectedChallenge)?.duration}
+                  </span>
+                </div>
+                <button 
+                  onClick={() => setSelectedChallenge(null)}
+                  className="text-gray-400 hover:text-gray-600 text-2xl"
+                >
+                  ×
+                </button>
+              </div>
+
+              {/* Challenge Image */}
+              <div className="aspect-[4/3] relative mb-6 rounded-lg overflow-hidden bg-gray-50">
+                <Image
+                  src={challenges.find(c => c.day === selectedChallenge)?.image || ''}
+                  alt={`Day ${selectedChallenge}: ${challenges.find(c => c.day === selectedChallenge)?.title}`}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+
+              {/* Challenge Content */}
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold text-green-800">
+                  {challenges.find(c => c.day === selectedChallenge)?.title}
+                </h2>
+                
+                <p className="text-gray-700 leading-relaxed">
+                  {challenges.find(c => c.day === selectedChallenge)?.fullDescription}
+                </p>
+
+                <div>
+                  <h3 className="font-semibold text-green-800 mb-3">Tips for Success:</h3>
+                  <ul className="space-y-2">
+                    {challenges.find(c => c.day === selectedChallenge)?.tips.map((tip, index) => (
+                      <li key={index} className="flex items-start gap-2 text-gray-700">
+                        <span className="text-green-600 mt-1">•</span>
+                        <span>{tip}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="flex gap-3 pt-4">
+                  <button 
+                    onClick={() => setSelectedChallenge(null)}
+                    className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex-1"
+                  >
+                    Start This Challenge
+                  </button>
+                  <button 
+                    onClick={() => setSelectedChallenge(null)}
+                    className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
