@@ -24,7 +24,7 @@ export default function Privacy() {
               </li>
               <li className="flex items-start">
                 <span className="text-fern mr-3">•</span>
-                Anonymous site usage data (via privacy-first analytics)
+                Anonymous site usage data (via Vercel Analytics)
               </li>
             </ul>
             <p className="text-stone leading-relaxed mt-4">
