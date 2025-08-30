@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -51,15 +52,17 @@ export default function Resources() {
             <div className="bg-mist p-6 rounded-lg border border-sage/20">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <img 
+                  <Image 
                     src="/images/digital-minimalism.jpg" 
                     alt="Digital Minimalism book cover"
+                    width={80}
+                    height={112}
                     className="w-20 h-28 object-cover rounded-lg shadow-sm"
                   />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    "Digital Minimalism" by Cal Newport
+                    &ldquo;Digital Minimalism&rdquo; by Cal Newport
                   </h3>
                   <p className="text-stone mb-4">
                     Clear framework for reducing digital noise without going off-grid. Newport provides a philosophy for living with intention in a noisy world.
@@ -80,15 +83,17 @@ export default function Resources() {
             <div className="bg-mist p-6 rounded-lg border border-sage/20">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <img 
+                  <Image 
                     src="/images/howtobreakupwithyourphone.jpg" 
                     alt="How to Break Up with Your Phone book cover"
+                    width={80}
+                    height={112}
                     className="w-20 h-28 object-cover rounded-lg shadow-sm"
                   />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    "How to Break Up with Your Phone" by Catherine Price
+                    &ldquo;How to Break Up with Your Phone&rdquo; by Catherine Price
                   </h3>
                   <p className="text-stone mb-4">
                     30-day plan with science-backed tactics to reclaim attention. Includes concrete strategies and the science behind smartphone dependency.
@@ -109,15 +114,17 @@ export default function Resources() {
             <div className="bg-mist p-6 rounded-lg border border-sage/20">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <img 
+                  <Image 
                     src="/images/techwisefamily.jpg" 
                     alt="The Tech-Wise Family book cover"
+                    width={80}
+                    height={112}
                     className="w-20 h-28 object-cover rounded-lg shadow-sm"
                   />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    "The Tech-Wise Family" by Andy Crouch
+                    &ldquo;The Tech-Wise Family&rdquo; by Andy Crouch
                   </h3>
                   <p className="text-stone mb-4">
                     Practical guardrails for healthier family tech habits. Focuses on building character and wisdom in the digital age.
