@@ -49,7 +49,9 @@ export default function Resources() {
           <div className="space-y-6">
             <div className="bg-mist p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-fern mb-2">
-                &quot;Digital Minimalism&quot; by Cal Newport
+                <a href="https://amzn.to/4n7M9Wm" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  &quot;Digital Minimalism&quot; by Cal Newport
+                </a>
               </h3>
               <p className="text-stone">
                 A philosophy for living with intention in a noisy world. Newport provides a framework for 
@@ -59,7 +61,9 @@ export default function Resources() {
 
             <div className="bg-mist p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-fern mb-2">
-                &quot;How to Break Up with Your Phone&quot; by Catherine Price
+                <a href="https://amzn.to/4mIHg6r" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  &quot;How to Break Up with Your Phone&quot; by Catherine Price
+                </a>
               </h3>
               <p className="text-stone">
                 A practical 30-day plan to break phone addiction and reclaim your life. Includes concrete 
@@ -69,7 +73,9 @@ export default function Resources() {
 
             <div className="bg-mist p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-fern mb-2">
-                &quot;The Tech-Wise Family&quot; by Andy Crouch
+                <a href="https://amzn.to/47qTlZf" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  &quot;The Tech-Wise Family&quot; by Andy Crouch
+                </a>
               </h3>
               <p className="text-stone">
                 Practical advice for creating healthy technology habits for the whole family. 
