@@ -39,50 +39,83 @@ export default function Resources() {
       </section>
 
       {/* Reading List Section - Moved to Top */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white" aria-labelledby="rec-reading">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-fern mb-4">📖 Recommended Reading</h2>
+            <h2 id="rec-reading" className="text-3xl font-bold text-fern mb-4">📖 Recommended Reading</h2>
             <div className="w-24 h-1 bg-gold mx-auto"></div>
           </div>
           
-          <div className="space-y-6">
-            <div className="bg-mist p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-fern mb-2">
-                <a href="https://amzn.to/4n7M9Wm" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  &quot;Digital Minimalism&quot; by Cal Newport
-                </a>
-              </h3>
-              <p className="text-stone">
-                A philosophy for living with intention in a noisy world. Newport provides a framework for 
-                decluttering your digital life and focusing on what truly matters.
-              </p>
-            </div>
+          <style jsx>{`
+            .qyd-shelf{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+            .qyd-book{display:grid;grid-template-columns:84px 1fr;gap:14px;padding:16px;border:1px solid #A4B2A3;border-radius:14px;background:#fff}
+            .qyd-cover{width:84px;height:120px;border-radius:8px;background:linear-gradient(120deg,#DCE8DC,#A4B2A3,#DCE8DC);
+                       background-size:200% 200%;animation:qyd-shimmer 2s linear infinite}
+            @keyframes qyd-shimmer{0%{background-position:0% 50%}100%{background-position:100% 50%}}
+            .qyd-book h3 a{color:#4F6F52;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+            .qyd-reason{color:#5D6F77;margin:6px 0 10px}
+            .qyd-btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:9999px;background:#4F6F52;color:#fff;font-weight:700;text-decoration:none}
+            .qyd-btn:hover{background:#3d5542}
+          `}</style>
 
-            <div className="bg-mist p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-fern mb-2">
-                <a href="https://amzn.to/4mIHg6r" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  &quot;How to Break Up with Your Phone&quot; by Catherine Price
-                </a>
-              </h3>
-              <p className="text-stone">
-                A practical 30-day plan to break phone addiction and reclaim your life. Includes concrete 
-                strategies and the science behind smartphone dependency.
-              </p>
-            </div>
+          <div className="qyd-shelf">
+            {/* Digital Minimalism — ASIN 0525536515 */}
+            <article className="qyd-book" data-asin="0525536515" data-market="US">
+              <div className="qyd-cover" aria-hidden="true"></div>
+              <div>
+                <h3><a href="https://amzn.to/4n7M9Wm" target="_blank" rel="noopener sponsored">Digital Minimalism — Cal Newport</a></h3>
+                <p className="qyd-reason">Clear framework for reducing digital noise without going off-grid.</p>
+                <a className="qyd-btn" href="https://amzn.to/4n7M9Wm" target="_blank" rel="noopener sponsored">See on Amazon →</a>
+              </div>
+            </article>
 
-            <div className="bg-mist p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-fern mb-2">
-                <a href="https://amzn.to/47qTlZf" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  &quot;The Tech-Wise Family&quot; by Andy Crouch
-                </a>
-              </h3>
-              <p className="text-stone">
-                Practical advice for creating healthy technology habits for the whole family. 
-                Focuses on building character and wisdom in the digital age.
-              </p>
-            </div>
+            {/* How to Break Up with Your Phone — ASIN 0593837169 */}
+            <article className="qyd-book" data-asin="0593837169" data-market="US">
+              <div className="qyd-cover" aria-hidden="true"></div>
+              <div>
+                <h3><a href="https://amzn.to/4mIHg6r" target="_blank" rel="noopener sponsored">How to Break Up with Your Phone — Catherine Price</a></h3>
+                <p className="qyd-reason">30-day plan with science-backed tactics to reclaim attention.</p>
+                <a className="qyd-btn" href="https://amzn.to/4mIHg6r" target="_blank" rel="noopener sponsored">See on Amazon →</a>
+              </div>
+            </article>
+
+            {/* The Tech-Wise Family — ASIN 0801018668 */}
+            <article className="qyd-book" data-asin="0801018668" data-market="US">
+              <div className="qyd-cover" aria-hidden="true"></div>
+              <div>
+                <h3><a href="https://amzn.to/47qTlZf" target="_blank" rel="noopener sponsored">The Tech-Wise Family — Andy Crouch</a></h3>
+                <p className="qyd-reason">Practical guardrails for healthier family tech habits.</p>
+                <a className="qyd-btn" href="https://amzn.to/47qTlZf" target="_blank" rel="noopener sponsored">See on Amazon →</a>
+              </div>
+            </article>
           </div>
+
+          {/* Client-side hydrator: swaps placeholders for PA-API images */}
+          <script dangerouslySetInnerHTML={{
+            __html: `
+              (async function hydrateCovers(){
+                const cards = [...document.querySelectorAll('.qyd-book')];
+                const payload = cards.map(c => ({ asin: c.dataset.asin, market: c.dataset.market || 'US' }));
+                try {
+                  const res = await fetch('/api/paapi/get-items', {
+                    method:'POST', headers:{'Content-Type':'application/json'},
+                    body: JSON.stringify({items: payload})
+                  });
+                  const data = await res.json(); // { "ASIN": { image, width, height }, ... }
+                  cards.forEach(card => {
+                    const info = data[card.dataset.asin];
+                    if (!info) return;
+                    const holder = card.querySelector('.qyd-cover');
+                    const img = new Image();
+                    img.src = info.image; img.alt = 'Book cover';
+                    img.width = 84; img.height = 120;
+                    img.style.width='84px'; img.style.height='120px'; img.style.borderRadius='8px';
+                    holder.replaceWith(img);
+                  });
+                } catch (_) { /* keep shimmering placeholders */ }
+              })();
+            `
+          }} />
         </div>
       </section>
 
