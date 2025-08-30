@@ -46,17 +46,20 @@ export default function Resources() {
             <div className="w-24 h-1 bg-gold mx-auto"></div>
           </div>
           
-          <style jsx>{`
-            .qyd-shelf{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
-            .qyd-book{display:grid;grid-template-columns:84px 1fr;gap:14px;padding:16px;border:1px solid #A4B2A3;border-radius:14px;background:#fff}
-            .qyd-cover{width:84px;height:120px;border-radius:8px;background:linear-gradient(120deg,#DCE8DC,#A4B2A3,#DCE8DC);
-                       background-size:200% 200%;animation:qyd-shimmer 2s linear infinite}
-            @keyframes qyd-shimmer{0%{background-position:0% 50%}100%{background-position:100% 50%}}
-            .qyd-book h3 a{color:#4F6F52;text-decoration:underline;text-underline-offset:3px;font-weight:700}
-            .qyd-reason{color:#5D6F77;margin:6px 0 10px}
-            .qyd-btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:9999px;background:#4F6F52;color:#fff;font-weight:700;text-decoration:none}
-            .qyd-btn:hover{background:#3d5542}
-          `}</style>
+          {/* Embedded CSS for book styling */}
+          <style dangerouslySetInnerHTML={{
+            __html: `
+              .qyd-shelf{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+              .qyd-book{display:grid;grid-template-columns:84px 1fr;gap:14px;padding:16px;border:1px solid #A4B2A3;border-radius:14px;background:#fff}
+              .qyd-cover{width:84px;height:120px;border-radius:8px;background:linear-gradient(120deg,#DCE8DC,#A4B2A3,#DCE8DC);
+                         background-size:200% 200%;animation:qyd-shimmer 2s linear infinite}
+              @keyframes qyd-shimmer{0%{background-position:0% 50%}100%{background-position:100% 50%}}
+              .qyd-book h3 a{color:#4F6F52;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+              .qyd-reason{color:#5D6F77;margin:6px 0 10px}
+              .qyd-btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:9999px;background:#4F6F52;color:#fff;font-weight:700;text-decoration:none}
+              .qyd-btn:hover{background:#3d5542}
+            `
+          }} />
 
           <div className="qyd-shelf">
             {/* Digital Minimalism — ASIN 0525536515 */}
