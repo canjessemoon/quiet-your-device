@@ -46,79 +46,94 @@ export default function Resources() {
             <div className="w-24 h-1 bg-gold mx-auto"></div>
           </div>
           
-          {/* Embedded CSS for book styling */}
-          <style dangerouslySetInnerHTML={{
-            __html: `
-              .qyd-shelf{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
-              .qyd-book{display:grid;grid-template-columns:84px 1fr;gap:14px;padding:16px;border:1px solid #A4B2A3;border-radius:14px;background:#fff}
-              .qyd-cover{width:84px;height:120px;border-radius:8px;background:linear-gradient(120deg,#DCE8DC,#A4B2A3,#DCE8DC);
-                         background-size:200% 200%;animation:qyd-shimmer 2s linear infinite}
-              @keyframes qyd-shimmer{0%{background-position:0% 50%}100%{background-position:100% 50%}}
-              .qyd-book h3 a{color:#4F6F52;text-decoration:underline;text-underline-offset:3px;font-weight:700}
-              .qyd-reason{color:#5D6F77;margin:6px 0 10px}
-              .qyd-btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:9999px;background:#4F6F52;color:#fff;font-weight:700;text-decoration:none}
-              .qyd-btn:hover{background:#3d5542}
-            `
-          }} />
-
-          <div className="qyd-shelf">
-            {/* Digital Minimalism — ASIN 0525536515 */}
-            <article className="qyd-book" data-asin="0525536515" data-market="US">
-              <div className="qyd-cover" aria-hidden="true"></div>
-              <div>
-                <h3><a href="https://amzn.to/4n7M9Wm" target="_blank" rel="noopener sponsored">Digital Minimalism — Cal Newport</a></h3>
-                <p className="qyd-reason">Clear framework for reducing digital noise without going off-grid.</p>
-                <a className="qyd-btn" href="https://amzn.to/4n7M9Wm" target="_blank" rel="noopener sponsored">See on Amazon →</a>
+          <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-1">
+            {/* Digital Minimalism */}
+            <div className="bg-mist p-6 rounded-lg border border-sage/20">
+              <div className="flex gap-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/images/digital-minimalism.jpg" 
+                    alt="Digital Minimalism book cover"
+                    className="w-20 h-28 object-cover rounded-lg shadow-sm"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-fern mb-2">
+                    "Digital Minimalism" by Cal Newport
+                  </h3>
+                  <p className="text-stone mb-4">
+                    Clear framework for reducing digital noise without going off-grid. Newport provides a philosophy for living with intention in a noisy world.
+                  </p>
+                  <a 
+                    href="https://amzn.to/4n7M9Wm" 
+                    target="_blank" 
+                    rel="noopener sponsored"
+                    className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                  >
+                    View on Amazon →
+                  </a>
+                </div>
               </div>
-            </article>
+            </div>
 
-            {/* How to Break Up with Your Phone — ASIN 0593837169 */}
-            <article className="qyd-book" data-asin="0593837169" data-market="US">
-              <div className="qyd-cover" aria-hidden="true"></div>
-              <div>
-                <h3><a href="https://amzn.to/4mIHg6r" target="_blank" rel="noopener sponsored">How to Break Up with Your Phone — Catherine Price</a></h3>
-                <p className="qyd-reason">30-day plan with science-backed tactics to reclaim attention.</p>
-                <a className="qyd-btn" href="https://amzn.to/4mIHg6r" target="_blank" rel="noopener sponsored">See on Amazon →</a>
+            {/* How to Break Up with Your Phone */}
+            <div className="bg-mist p-6 rounded-lg border border-sage/20">
+              <div className="flex gap-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/images/howtobreakupwithyourphone.jpg" 
+                    alt="How to Break Up with Your Phone book cover"
+                    className="w-20 h-28 object-cover rounded-lg shadow-sm"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-fern mb-2">
+                    "How to Break Up with Your Phone" by Catherine Price
+                  </h3>
+                  <p className="text-stone mb-4">
+                    30-day plan with science-backed tactics to reclaim attention. Includes concrete strategies and the science behind smartphone dependency.
+                  </p>
+                  <a 
+                    href="https://amzn.to/4mIHg6r" 
+                    target="_blank" 
+                    rel="noopener sponsored"
+                    className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                  >
+                    View on Amazon →
+                  </a>
+                </div>
               </div>
-            </article>
+            </div>
 
-            {/* The Tech-Wise Family — ASIN 0801018668 */}
-            <article className="qyd-book" data-asin="0801018668" data-market="US">
-              <div className="qyd-cover" aria-hidden="true"></div>
-              <div>
-                <h3><a href="https://amzn.to/47qTlZf" target="_blank" rel="noopener sponsored">The Tech-Wise Family — Andy Crouch</a></h3>
-                <p className="qyd-reason">Practical guardrails for healthier family tech habits.</p>
-                <a className="qyd-btn" href="https://amzn.to/47qTlZf" target="_blank" rel="noopener sponsored">See on Amazon →</a>
+            {/* The Tech-Wise Family */}
+            <div className="bg-mist p-6 rounded-lg border border-sage/20">
+              <div className="flex gap-4">
+                <div className="flex-shrink-0">
+                  <img 
+                    src="/images/techwisefamily.jpg" 
+                    alt="The Tech-Wise Family book cover"
+                    className="w-20 h-28 object-cover rounded-lg shadow-sm"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-fern mb-2">
+                    "The Tech-Wise Family" by Andy Crouch
+                  </h3>
+                  <p className="text-stone mb-4">
+                    Practical guardrails for healthier family tech habits. Focuses on building character and wisdom in the digital age.
+                  </p>
+                  <a 
+                    href="https://amzn.to/47qTlZf" 
+                    target="_blank" 
+                    rel="noopener sponsored"
+                    className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                  >
+                    View on Amazon →
+                  </a>
+                </div>
               </div>
-            </article>
+            </div>
           </div>
-
-          {/* Client-side hydrator: swaps placeholders for PA-API images */}
-          <script dangerouslySetInnerHTML={{
-            __html: `
-              (async function hydrateCovers(){
-                const cards = [...document.querySelectorAll('.qyd-book')];
-                const payload = cards.map(c => ({ asin: c.dataset.asin, market: c.dataset.market || 'US' }));
-                try {
-                  const res = await fetch('/api/paapi/get-items', {
-                    method:'POST', headers:{'Content-Type':'application/json'},
-                    body: JSON.stringify({items: payload})
-                  });
-                  const data = await res.json(); // { "ASIN": { image, width, height }, ... }
-                  cards.forEach(card => {
-                    const info = data[card.dataset.asin];
-                    if (!info) return;
-                    const holder = card.querySelector('.qyd-cover');
-                    const img = new Image();
-                    img.src = info.image; img.alt = 'Book cover';
-                    img.width = 84; img.height = 120;
-                    img.style.width='84px'; img.style.height='120px'; img.style.borderRadius='8px';
-                    holder.replaceWith(img);
-                  });
-                } catch (_) { /* keep shimmering placeholders */ }
-              })();
-            `
-          }} />
         </div>
       </section>
 
