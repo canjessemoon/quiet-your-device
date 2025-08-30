@@ -344,11 +344,11 @@ const getBlogPost = (id: string): BlogPost | null => {
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Why It Matters: Your Brain Deserves a Softer Start</strong></h2>
         
-        <p style="margin-bottom: 20px;">The moment you check your phone, your brain goes from rest mode to react mode. Cortisol (your stress hormone) spikes. Your to-do list floods in. Social comparison kicks off before you&apos;ve even left bed.</p>
+        <p style="margin-bottom: 20px;">The moment you check your phone, your brain goes from rest mode to react mode, kicking into high alert and raising perceived stress.<sup><a href="#ref1" style="color: #4F6F52; text-decoration: none;">1</a></sup> Your to-do list floods in. Social comparison kicks off before you&apos;ve even left bed.</p>
         
         <p style="margin-bottom: 20px;">Our brains weren&apos;t designed to wake up to 37 notifications.</p>
         
-        <p style="margin-bottom: 20px;">Those first few moments after waking up are when your mind is most open. How you spend them sets the tone for the rest of your day — and it turns out, quiet wins.</p>
+        <p style="margin-bottom: 20px;">Those first few moments after waking up are when your mind is most open. How you spend them sets the tone for the rest of your day — and it turns out, quiet wins. Getting morning bright light exposure can even improve your sleep quality that night.<sup><a href="#ref2" style="color: #4F6F52; text-decoration: none;">2</a></sup></p>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>What a Phone-Free Morning Actually Looks Like</strong></h2>
         
@@ -365,7 +365,7 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Move your body — a walk, a few stretches, whatever feels right</li>
         </ul>
         
-        <p style="margin-bottom: 20px;">None of it needs to be fancy. Just something that&apos;s yours.</p>
+        <p style="margin-bottom: 20px;">None of it needs to be fancy. Just something that&apos;s yours. For help setting up phone-free time blocks, check out Focus modes on <a href="https://support.apple.com/en-in/guide/iphone/iph5c3f5b77b/ios" target="_blank" style="color: #4F6F52; text-decoration: underline;">iOS</a> or Digital Wellbeing on <a href="https://support.google.com/android/answer/9346420?hl=en" target="_blank" style="color: #4F6F52; text-decoration: underline;">Android</a>.</p>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Start Small: Try It Tomorrow</strong></h2>
         
@@ -385,6 +385,16 @@ const getBlogPost = (id: string): BlogPost | null => {
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Want more quiet moments like this? We&apos;ve got you.</strong></h2>
         
         <p style="margin-bottom: 30px;">This is Quiet Your Device. Not about quitting. Just making space for what matters.</p>
+
+        <hr style="border: none; height: 1px; background-color: #A4B2A3; margin: 40px 0;" />
+
+        <h3 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold; color: #4F6F52;">References</h3>
+        
+        <div style="font-size: 0.9rem; line-height: 1.6; color: #5D6F77;">
+          <p id="ref1" style="margin-bottom: 15px;"><strong>1.</strong> Mark, G., Gudith, D., & Klocke, U. (2008). The cost of interrupted work: more speed and stress. <em>Proceedings of the SIGCHI conference on Human Factors in computing systems</em>. <a href="https://www.ics.uci.edu/~gmark/chi08-mark.pdf" target="_blank" style="color: #4F6F52; text-decoration: underline;">https://www.ics.uci.edu/~gmark/chi08-mark.pdf</a></p>
+          
+          <p id="ref2" style="margin-bottom: 15px;"><strong>2.</strong> Hartescu, I., et al. (2022). Morning bright light improves nocturnal sleep and next‐night sleep propensity in young adults. <em>PubMed</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/36058557/" target="_blank" style="color: #4F6F52; text-decoration: underline;">https://pubmed.ncbi.nlm.nih.gov/36058557/</a></p>
+        </div>
       `,
       author: "QYD Team",
       date: "June 25, 2025",
@@ -438,7 +448,7 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li><strong>Useful weekly:</strong> transit, grocery, airline</li>
           <li><strong>Create/learn:</strong> camera, notes, Kindle, music creation</li>
           <li><strong>Social/entertainment:</strong> feeds, short-form video, gaming</li>
-          <li><strong>"Slot machines" (delete-prone):</strong> infinite scroll + variable rewards</li>
+          <li><strong>"Slot machines" (delete-prone):</strong> infinite scroll + variable rewards<sup><a href="#appref3" style="color: #4F6F52; text-decoration: none;">3</a></sup></li>
         </ul>
         
         <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 2 — Delete and Offload (20% Rule)</strong></h3>
@@ -451,7 +461,7 @@ const getBlogPost = (id: string): BlogPost | null => {
           <li>Ride/food delivery updates</li>
           <li>Banking fraud alerts</li>
         </ul>
-        <p style="margin-bottom: 20px;">No badges for social. No sounds/vibrate unless time-critical.</p>
+        <p style="margin-bottom: 20px;">No badges for social. No sounds/vibrate unless time-critical. Research shows that turning off email for a week can reduce stress and multitasking fragmentation.<sup><a href="#appref1" style="color: #4F6F52; text-decoration: none;">1</a></sup></p>
         
         <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 4 — Home Screen Surgery</strong></h3>
         <ul style="margin-bottom: 20px;">
@@ -464,13 +474,13 @@ const getBlogPost = (id: string): BlogPost | null => {
         <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 5 — Time Guards</strong></h3>
         <ul style="margin-bottom: 20px;">
           <li>Focus/DND: work, family, sleep</li>
-          <li>App limits: e.g., Social total ≤ 30–45 min/day</li>
+          <li>App limits: e.g., Social total ≤ 30–45 min/day<sup><a href="#appref2" style="color: #4F6F52; text-decoration: none;">2</a></sup></li>
           <li>Downtime/Bedtime: apps off after 9 pm (keep phone + texts if needed)</li>
         </ul>
         
         <h3 style="margin-top: 25px; margin-bottom: 15px; color: #4F6F52;"><strong>Day 6 — Friction Hacks</strong></h3>
         <ul style="margin-bottom: 20px;">
-          <li>Grayscale after 8 pm</li>
+          <li>Grayscale after 8 pm<sup><a href="#appref4" style="color: #4F6F52; text-decoration: none;">4</a></sup></li>
           <li>Remove addictive widgets from home screen</li>
           <li>Log out of the most tempting app; require Face/Passcode to open</li>
         </ul>
@@ -481,10 +491,10 @@ const getBlogPost = (id: string): BlogPost | null => {
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Quick How-To (High Level)</strong></h2>
         
         <h3 style="margin-top: 25px; margin-bottom: 15px;">📱 iOS (Settings):</h3>
-        <p style="margin-bottom: 20px;">Screen Time → App Limits / Downtime • Focus → Allowed notifications • Display → Color Filters (grayscale) • Notifications → turn off by default.</p>
+        <p style="margin-bottom: 20px;"><a href="https://support.apple.com/en-us/HT208982" target="_blank" style="color: #4F6F52; text-decoration: underline;">Screen Time</a> → App Limits / Downtime • <a href="https://support.apple.com/en-in/guide/iphone/iph5c3f5b77b/ios" target="_blank" style="color: #4F6F52; text-decoration: underline;">Focus</a> → Allowed notifications • Display → Color Filters (grayscale) • Notifications → turn off by default.</p>
         
         <h3 style="margin-top: 25px; margin-bottom: 15px;">🤖 Android (varies):</h3>
-        <p style="margin-bottom: 20px;">Digital Wellbeing → Dashboard / Focus mode / Bedtime • Notifications → per-app • Display → Grayscale (Monochrome) or Bedtime Mode.</p>
+        <p style="margin-bottom: 20px;"><a href="https://support.google.com/android/answer/9346420?hl=en" target="_blank" style="color: #4F6F52; text-decoration: underline;">Digital Wellbeing</a> → Dashboard / Focus mode / Bedtime • Notifications → per-app • Display → Grayscale (Monochrome) or Bedtime Mode.</p>
         
         <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;"><strong>Track & Reflect</strong></h2>
         
@@ -535,6 +545,20 @@ const getBlogPost = (id: string): BlogPost | null => {
             <li style="margin-bottom: 8px; margin-top: 15px; border-top: 1px solid #ddd; padding-top: 15px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Weekly:</strong> 5-minute Trash Day</li>
             <li style="margin-bottom: 0;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Monthly:</strong> 10-minute refresh</li>
           </ul>
+        </div>
+
+        <hr style="border: none; height: 1px; background-color: #A4B2A3; margin: 40px 0;" />
+
+        <h3 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold; color: #4F6F52;">References</h3>
+        
+        <div style="font-size: 0.9rem; line-height: 1.6; color: #5D6F77;">
+          <p id="appref1" style="margin-bottom: 15px;"><strong>1.</strong> Kushlev, K., & Dunn, E. W. (2015). Checking email less frequently reduces stress. <em>Computers in Human Behavior</em>, 43, 220-228. <a href="https://psycnet.apa.org/record/2014-52668-015" target="_blank" style="color: #4F6F52; text-decoration: underline;">https://psycnet.apa.org/record/2014-52668-015</a></p>
+          
+          <p id="appref2" style="margin-bottom: 15px;"><strong>2.</strong> Ophir, E., Nass, C., & Wagner, A. D. (2009). Cognitive control in media multitaskers. <em>Proceedings of the National Academy of Sciences</em>, 106(37), 15583-15587. <a href="https://www.pnas.org/doi/10.1073/pnas.0903620106" target="_blank" style="color: #4F6F52; text-decoration: underline;">https://www.pnas.org/doi/10.1073/pnas.0903620106</a></p>
+          
+          <p id="appref3" style="margin-bottom: 15px;"><strong>3.</strong> Schüll, N. D. (2012). Addiction by design: Machine gambling in Las Vegas. Princeton University Press. <a href="https://press.princeton.edu/books/hardcover/9780691127552/addiction-by-design" target="_blank" style="color: #4F6F52; text-decoration: underline;">https://press.princeton.edu/books/hardcover/9780691127552/addiction-by-design</a></p>
+          
+          <p id="appref4" style="margin-bottom: 15px;"><strong>4.</strong> Monge Roffarello, A., & De Russis, L. (2019). The race towards digital wellbeing: Issues and opportunities. <em>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</em>. <a href="https://dl.acm.org/doi/10.1145/3290605.3300616" target="_blank" style="color: #4F6F52; text-decoration: underline;">https://dl.acm.org/doi/10.1145/3290605.3300616</a></p>
         </div>
       `,
       author: "QYD Team",
