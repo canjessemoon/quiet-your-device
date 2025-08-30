@@ -517,6 +517,25 @@ const getBlogPost = (id: string): BlogPost | null => {
         <p style="margin-bottom: 20px;">Seven days. A cleaner phone. A clearer mind.</p>
         
         <p style="margin-bottom: 30px;">Start tomorrow with Day 0, and remember — this isn't about perfection. It's about intention.</p>
+
+        <hr style="border: none; height: 2px; background-color: #A4B2A3; margin: 40px 0;" />
+
+        <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: bold; color: #4F6F52;"><strong>7-Day App Cleanse Checklist</strong></h2>
+        
+        <div style="background-color: #f9f9f9; padding: 25px; border-radius: 8px; margin-bottom: 30px;">
+          <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8;">
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 0:</strong> Baseline metrics saved</li>
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 1:</strong> Apps triaged into 5 lists</li>
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 2:</strong> Deleted ≥20% + offloaded rare utilities</li>
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 3:</strong> Notifications zeroed; essentials re-enabled</li>
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 4:</strong> One home screen; dock = essentials only</li>
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 5:</strong> App limits + Focus/DND set</li>
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 6:</strong> Grayscale after 8 pm; removed tempting widgets</li>
+            <li style="margin-bottom: 8px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Day 7:</strong> Added back ≤5 creator/learning apps</li>
+            <li style="margin-bottom: 8px; margin-top: 15px; border-top: 1px solid #ddd; padding-top: 15px;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Weekly:</strong> 5-minute Trash Day</li>
+            <li style="margin-bottom: 0;"><span style="font-size: 16px; margin-right: 8px;">☐</span> <strong>Monthly:</strong> 10-minute refresh</li>
+          </ul>
+        </div>
       `,
       author: "QYD Team",
       date: "August 29, 2025",
