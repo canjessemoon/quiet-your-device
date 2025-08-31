@@ -406,13 +406,19 @@ export default function Resources() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold text-fern mb-4">📻 Analog Alarm Clock</h3>
-              <p className="text-stone mb-4">
-                Replace your phone as your bedside alarm. Keep your device out of the bedroom for better sleep hygiene.
-              </p>
-              <p className="text-stone mb-4">
-                <strong>Our Pick:</strong> Amazon Basics Digital Alarm Clock — simple, reliable, and affordable with battery backup and clear display.
-              </p>
+              <h3 className="text-xl font-semibold text-fern mb-4">📻 Digital Alarm Clock</h3>
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">Why I like it:</p>
+                <p className="text-stone mb-4">
+                  I sleep better when my phone sleeps outside the bedroom. A no-frills clock means I don&apos;t start the day in react mode. The one I use is the Amazon Basics digital alarm clock—it&apos;s dead simple and even has a tiny night-light my kids love.
+                </p>
+              </div>
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">How I use it:</p>
+                <p className="text-stone mb-4">
+                  Phone charges in the kitchen → alarm on the nightstand → no doomscroll at midnight.
+                </p>
+              </div>
               <a 
                 href="https://amzn.to/4lVKhPz" 
                 target="_blank" 
@@ -426,32 +432,71 @@ export default function Resources() {
 
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold text-fern mb-4">📚 Physical Books</h3>
-              <p className="text-stone mb-4">
-                Rediscover the joy of reading without notifications. Physical books provide a screen-free escape.
-              </p>
-              <div className="text-sage text-sm">
-                Start with: Fiction, memoirs, or topics you&apos;re passionate about
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">Why I like it:</p>
+                <p className="text-stone mb-4">
+                  A paper book is a clean break from notifications. Pages slow my brain down in a good way; I actually remember what I read.
+                </p>
               </div>
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">How I use it:</p>
+                <p className="text-stone mb-4">
+                  One chapter before bed instead of &ldquo;just one more video.&rdquo; I keep a book where my phone used to sit.
+                </p>
+              </div>
+              <p className="text-stone">
+                Check out the recommended reading list above or pick up a copy of the book you have just been wanting to read, sit down and enjoy.
+              </p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold text-fern mb-4">📝 Paper Journal</h3>
-              <p className="text-stone mb-4">
-                Process thoughts and feelings without digital distractions. Journaling can replace mindless scrolling.
-              </p>
-              <div className="text-sage text-sm">
-                Try: Morning pages, gratitude journaling, or evening reflection
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">Why I like it:</p>
+                <p className="text-stone mb-4">
+                  These notebooks go everywhere—meeting, coffee shop, bedside—and the paper just feels good to write on. When my head feels crowded, two handwritten pages clear space in a way apps never do.
+                </p>
               </div>
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">How I use it:</p>
+                <p className="text-stone mb-4">
+                  Morning pages on busy days; quick gratitude list at night; a running &ldquo;ideas&rdquo; page during the week.
+                </p>
+              </div>
+              <a 
+                href="https://amzn.to/47hDTyt" 
+                target="_blank" 
+                rel="noopener sponsored"
+                aria-label="See the notebook on Amazon"
+                className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+              >
+                See the notebook I use →
+              </a>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold text-fern mb-4">🎧 Noise-Canceling Headphones</h3>
-              <p className="text-stone mb-4">
-                Create a peaceful environment for focus work or meditation without reaching for your phone.
-              </p>
-              <div className="text-sage text-sm">
-                Great for: Deep work, meditation, or simply enjoying silence
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">Why I like it:</p>
+                <p className="text-stone mb-4">
+                  My Bose headphones are a focus switch. Noise drops, my attention narrows, and I either get into deep work or settle into a short meditation without the phone tugging at me.
+                </p>
               </div>
+              <div className="mb-4">
+                <p className="text-stone font-medium mb-2">How I use it:</p>
+                <p className="text-stone mb-4">
+                  Set a 25–45 minute timer, headphones on, one task only. Or, play a breath track and sit for five minutes between meetings.
+                </p>
+              </div>
+              <a 
+                href="https://amzn.to/3HM3Hsb" 
+                target="_blank" 
+                rel="noopener sponsored"
+                aria-label="See the headphones on Amazon"
+                className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+              >
+                See the headphones →
+              </a>
             </div>
           </div>
         </div>
