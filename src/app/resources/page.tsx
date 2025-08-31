@@ -73,7 +73,7 @@ export default function Resources() {
                     Clear framework for reducing digital noise without going off-grid. Newport provides a philosophy for living with intention in a noisy world.
                   </p>
                   <a 
-                    href="https://amzn.to/4n7M9Wm" 
+                    href="/api/amazon?asin=0525536515" 
                     target="_blank" 
                     rel="noopener sponsored"
                     aria-label="See Digital Minimalism on Amazon"
@@ -105,7 +105,7 @@ export default function Resources() {
                     30-day plan with science-backed tactics to reclaim attention. Includes concrete strategies and the science behind smartphone dependency.
                   </p>
                   <a 
-                    href="https://amzn.to/4mIHg6r" 
+                    href="/api/amazon?asin=0593837169" 
                     target="_blank" 
                     rel="noopener sponsored"
                     aria-label="See How to Break Up with Your Phone on Amazon"
@@ -137,7 +137,7 @@ export default function Resources() {
                     Practical guardrails for healthier family tech habits. Focuses on building character and wisdom in the digital age.
                   </p>
                   <a 
-                    href="https://amzn.to/47qTlZf" 
+                    href="/api/amazon?asin=0801018668" 
                     target="_blank" 
                     rel="noopener sponsored"
                     aria-label="See The Tech-Wise Family on Amazon"
@@ -420,7 +420,7 @@ export default function Resources() {
                 </p>
               </div>
               <a 
-                href="https://amzn.to/4lVKhPz" 
+                href="/api/amazon?asin=B07DQWT15Y" 
                 target="_blank" 
                 rel="noopener sponsored"
                 aria-label="See Amazon Basics Digital Alarm Clock on Amazon"
@@ -464,7 +464,7 @@ export default function Resources() {
                 </p>
               </div>
               <a 
-                href="https://amzn.to/47hDTyt" 
+                href="/api/amazon?asin=8883705041" 
                 target="_blank" 
                 rel="noopener sponsored"
                 aria-label="See the notebook on Amazon"
@@ -489,7 +489,7 @@ export default function Resources() {
                 </p>
               </div>
               <a 
-                href="https://amzn.to/3HM3Hsb" 
+                href="/api/amazon?asin=B0CCZ26B5V" 
                 target="_blank" 
                 rel="noopener sponsored"
                 aria-label="See the headphones on Amazon"
