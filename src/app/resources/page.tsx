@@ -62,7 +62,7 @@ export default function Resources() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    &ldquo;Digital Minimalism&rdquo; by Cal Newport
+                    Digital Minimalism by Cal Newport
                   </h3>
                   <p className="text-stone mb-4">
                     Clear framework for reducing digital noise without going off-grid. Newport provides a philosophy for living with intention in a noisy world.
@@ -71,9 +71,10 @@ export default function Resources() {
                     href="https://amzn.to/4n7M9Wm" 
                     target="_blank" 
                     rel="noopener sponsored"
+                    aria-label="See Digital Minimalism on Amazon"
                     className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
                   >
-                    View on Amazon →
+                    See on Amazon →
                   </a>
                 </div>
               </div>
@@ -93,7 +94,7 @@ export default function Resources() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    &ldquo;How to Break Up with Your Phone&rdquo; by Catherine Price
+                    How to Break Up with Your Phone by Catherine Price
                   </h3>
                   <p className="text-stone mb-4">
                     30-day plan with science-backed tactics to reclaim attention. Includes concrete strategies and the science behind smartphone dependency.
@@ -102,9 +103,10 @@ export default function Resources() {
                     href="https://amzn.to/4mIHg6r" 
                     target="_blank" 
                     rel="noopener sponsored"
+                    aria-label="See How to Break Up with Your Phone on Amazon"
                     className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
                   >
-                    View on Amazon →
+                    See on Amazon →
                   </a>
                 </div>
               </div>
@@ -124,7 +126,7 @@ export default function Resources() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    &ldquo;The Tech-Wise Family&rdquo; by Andy Crouch
+                    The Tech-Wise Family by Andy Crouch
                   </h3>
                   <p className="text-stone mb-4">
                     Practical guardrails for healthier family tech habits. Focuses on building character and wisdom in the digital age.
@@ -133,9 +135,10 @@ export default function Resources() {
                     href="https://amzn.to/47qTlZf" 
                     target="_blank" 
                     rel="noopener sponsored"
+                    aria-label="See The Tech-Wise Family on Amazon"
                     className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
                   >
-                    View on Amazon →
+                    See on Amazon →
                   </a>
                 </div>
               </div>
