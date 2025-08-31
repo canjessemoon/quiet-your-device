@@ -135,8 +135,8 @@ export async function POST(request: Request) {
     return Response.json(merged, {
       headers: { "Cache-Control": "s-maxage=86400, stale-while-revalidate=604800" },
     });
-  } catch (err: any) {
-    const message = err?.message || "Server error";
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Server error";
     return Response.json({ error: message }, { status: 500 });
   }
 }

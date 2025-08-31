@@ -294,7 +294,7 @@ export default function Resources() {
             <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 max-w-3xl mx-auto mb-6">
               <p className="text-sm text-blue-800">
-                <strong>No Commissions:</strong> We don't earn anything from these links. These are simply tools we know make a real impact for developing healthier digital habits.
+                <strong>No Commissions:</strong> We don&apos;t earn anything from these links. These are simply tools we know make a real impact for developing healthier digital habits.
               </p>
             </div>
             <p className="text-lg text-stone mt-4 max-w-2xl mx-auto">
@@ -410,9 +410,18 @@ export default function Resources() {
               <p className="text-stone mb-4">
                 Replace your phone as your bedside alarm. Keep your device out of the bedroom for better sleep hygiene.
               </p>
-              <div className="text-sage text-sm">
-                Recommendation: Simple digital or analog clock with battery backup
-              </div>
+              <p className="text-stone mb-4">
+                <strong>Our Pick:</strong> Amazon Basics Digital Alarm Clock — simple, reliable, and affordable with battery backup and clear display.
+              </p>
+              <a 
+                href="https://amzn.to/4lVKhPz" 
+                target="_blank" 
+                rel="noopener sponsored"
+                aria-label="See Amazon Basics Digital Alarm Clock on Amazon"
+                className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+              >
+                See on Amazon →
+              </a>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm">
