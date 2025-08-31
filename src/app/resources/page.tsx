@@ -291,7 +291,12 @@ export default function Resources() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-fern mb-4">Apps for Mindfulness and Focus</h2>
-            <div className="w-24 h-1 bg-gold mx-auto"></div>
+            <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 max-w-3xl mx-auto mb-6">
+              <p className="text-sm text-blue-800">
+                <strong>No Commissions:</strong> We don't earn anything from these links. These are simply tools we know make a real impact for developing healthier digital habits.
+              </p>
+            </div>
             <p className="text-lg text-stone mt-4 max-w-2xl mx-auto">
               Tools to support intentional tech use — not more of it.
             </p>
@@ -306,7 +311,16 @@ export default function Resources() {
                 <p className="text-stone mb-4 italic">
                   <strong>Why we like it:</strong> It helps shift your phone from stress to stillness — one deep breath at a time.
                 </p>
-                <p className="text-sage text-sm">💸 Free with premium upgrade</p>
+                <p className="text-sage text-sm mb-4">💸 Free with premium upgrade</p>
+                <a 
+                  href="https://www.calm.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="Visit Calm website"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                >
+                  Link to the website →
+                </a>
               </div>
             </div>
 
@@ -320,7 +334,16 @@ export default function Resources() {
                 <p className="text-stone mb-4 italic">
                   <strong>Why we like it:</strong> It turns focus into something visible, calming, and even fun — perfect for detox beginners.
                 </p>
-                <p className="text-sage text-sm">💸 One-time purchase (~$3.99)</p>
+                <p className="text-sage text-sm mb-4">💸 One-time purchase (~$3.99)</p>
+                <a 
+                  href="https://www.forestapp.cc/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="Visit Forest app website"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                >
+                  Link to the website →
+                </a>
               </div>
             </div>
 
@@ -334,7 +357,16 @@ export default function Resources() {
                 <p className="text-stone mb-4 italic">
                   <strong>Why we like it:</strong> It&apos;s like a digital boundary you set once and trust completely. Solid, serious help when you need a break.
                 </p>
-                <p className="text-sage text-sm">💸 Subscription (~$7/month)</p>
+                <p className="text-sage text-sm mb-4">💸 Subscription (~$7/month)</p>
+                <a 
+                  href="https://freedom.to/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="Visit Freedom website"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                >
+                  Link to the website →
+                </a>
               </div>
             </div>
 
@@ -348,21 +380,16 @@ export default function Resources() {
                 <p className="text-stone mb-4 italic">
                   <strong>Why we like it:</strong> It&apos;s tiny but powerful. That one-second moment of clarity really works.
                 </p>
-                <p className="text-sage text-sm">💸 Free with optional upgrade</p>
-              </div>
-            </div>
-
-            <div className="bg-mist p-8 rounded-lg">
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold text-fern mb-2">Moment</h3>
-                <p className="text-sm text-sage mb-4">iOS & Android</p>
-                <p className="text-stone mb-4">
-                  Track screen time, set goals, and build self-awareness without judgment.
-                </p>
-                <p className="text-stone mb-4 italic">
-                  <strong>Why we like it:</strong> It&apos;s about gentle accountability — not guilt. Awareness is the first step to change.
-                </p>
-                <p className="text-sage text-sm">💸 Free</p>
+                <p className="text-sage text-sm mb-4">💸 Free with optional upgrade</p>
+                <a 
+                  href="https://one-sec.app/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="Visit One Sec app website"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                >
+                  Link to the website →
+                </a>
               </div>
             </div>
           </div>
