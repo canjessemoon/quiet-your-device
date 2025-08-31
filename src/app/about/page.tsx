@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import NewsletterForm from '@/components/NewsletterForm';
 
 export const metadata: Metadata = {
   title: "About QYD | Quiet Your Device",
@@ -207,6 +208,39 @@ export default function About() {
               >
                 Try the Challenge
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Section */}
+      <section className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-fern mb-4">
+              📧 Stay Connected
+            </h2>
+            <p className="text-xl text-stone max-w-2xl mx-auto">
+              Get weekly insights, practical tips, and gentle reminders delivered to your inbox. 
+              No spam, just thoughtful content to support your digital wellness journey.
+            </p>
+          </div>
+          
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-mist p-8 rounded-xl text-center">
+              <h3 className="text-2xl font-semibold text-fern mb-4">
+                Join Our Community
+              </h3>
+              <p className="text-stone mb-6">
+                Weekly digital wellness tips, new blog posts, and exclusive insights from the QYD team.
+              </p>
+              
+              {/* Newsletter Signup Form */}
+              <NewsletterForm />
+              
+              <p className="text-sm text-sage mt-4">
+                ✨ Unsubscribe anytime. We respect your inbox and your time.
+              </p>
             </div>
           </div>
         </div>
