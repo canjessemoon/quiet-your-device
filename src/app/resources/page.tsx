@@ -72,7 +72,7 @@ export default function Resources() {
                     target="_blank" 
                     rel="noopener sponsored"
                     aria-label="See Digital Minimalism on Amazon"
-                    className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                    className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-full font-semibold transition-colors"
                   >
                     See on Amazon →
                   </a>
@@ -104,7 +104,7 @@ export default function Resources() {
                     target="_blank" 
                     rel="noopener sponsored"
                     aria-label="See How to Break Up with Your Phone on Amazon"
-                    className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                    className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-full font-semibold transition-colors"
                   >
                     See on Amazon →
                   </a>
@@ -136,7 +136,7 @@ export default function Resources() {
                     target="_blank" 
                     rel="noopener sponsored"
                     aria-label="See The Tech-Wise Family on Amazon"
-                    className="inline-flex items-center gap-2 bg-fern hover:bg-fern/90 text-white px-4 py-2 rounded-full font-semibold transition-colors"
+                    className="inline-flex items-center gap-2 bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-full font-semibold transition-colors"
                   >
                     See on Amazon →
                   </a>
