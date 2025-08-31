@@ -44,7 +44,12 @@ export default function Resources() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 id="rec-reading" className="text-3xl font-bold text-fern mb-4">📖 Recommended Reading</h2>
-            <div className="w-24 h-1 bg-gold mx-auto"></div>
+            <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 max-w-2xl mx-auto">
+              <p className="text-sm text-amber-800">
+                <strong>Affiliate Disclosure:</strong> This page contains affiliate links. If you purchase through these links, we may earn a small commission at no extra cost to you. We only recommend books we believe in.
+              </p>
+            </div>
           </div>
           
           <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-1">

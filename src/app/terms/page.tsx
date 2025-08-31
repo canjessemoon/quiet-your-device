@@ -55,9 +55,12 @@ export default function Terms() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-fern mb-4">6. External Links</h2>
-            <p className="text-stone leading-relaxed">
+            <h2 className="text-2xl font-semibold text-fern mb-4">6. External Links & Affiliate Disclosure</h2>
+            <p className="text-stone leading-relaxed mb-4">
               We link to helpful third-party resources, but we are not responsible for their content, availability, or practices.
+            </p>
+            <p className="text-stone leading-relaxed">
+              <strong>Affiliate Links:</strong> Some links on our site are affiliate links. When you purchase through these links, we may earn a small commission at no additional cost to you. This helps support our content creation and website maintenance. We only recommend products and resources we genuinely believe will be helpful for developing healthier digital habits.
             </p>
           </section>
 
