@@ -47,7 +47,7 @@ export default function Resources() {
             <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 max-w-2xl mx-auto">
               <p className="text-sm text-amber-800">
-                <strong>Affiliate Disclosure:</strong> This page contains affiliate links. If you purchase through these links, we may earn a small commission at no extra cost to you. We only recommend books we believe in.
+                <strong>Affiliate Disclosure:</strong> This page contains affiliate links (Green buttons). If you purchase through these links, we may earn a small commission at no extra cost to you. We only recommend books or items we use ourselves and believe in.
               </p>
             </div>
           </div>
