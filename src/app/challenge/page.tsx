@@ -414,7 +414,7 @@ export default function Challenge() {
       <div className="py-8 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-sm text-gray-500">
-            Last Updated: August 30, 2025
+            Last Updated: September 1, 2025
           </p>
         </div>
       </div>
