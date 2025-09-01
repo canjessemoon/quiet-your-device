@@ -67,7 +67,7 @@ export default function Resources() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    Digital Minimalism by Cal Newport
+                    Digital Minimalism by <a href="https://calnewport.com/" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">Cal Newport</a>
                   </h3>
                   <p className="text-stone mb-4">
                     Clear framework for reducing digital noise without going off-grid. Newport provides a philosophy for living with intention in a noisy world.
@@ -99,7 +99,7 @@ export default function Resources() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    How to Break Up with Your Phone by Catherine Price
+                    How to Break Up with Your Phone by <a href="https://catherineprice.com/about" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">Catherine Price</a>
                   </h3>
                   <p className="text-stone mb-4">
                     30-day plan with science-backed tactics to reclaim attention. Includes concrete strategies and the science behind smartphone dependency.
@@ -131,7 +131,7 @@ export default function Resources() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-fern mb-2">
-                    The Tech-Wise Family by Andy Crouch
+                    The Tech-Wise Family by <a href="https://andy-crouch.com/" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">Andy Crouch</a>
                   </h3>
                   <p className="text-stone mb-4">
                     Practical guardrails for healthier family tech habits. Focuses on building character and wisdom in the digital age.
