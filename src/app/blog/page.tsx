@@ -6,6 +6,15 @@ import Link from 'next/link';
 // Sample blog posts data (sorted newest first)
 const blogPosts = [
   {
+    id: 6,
+    title: "The Social Scroll Trap: How Infinite Feeds Hijack Your Mind",
+    excerpt: "Infinite scroll and autoplay weren't accidents — they were engineered to keep you hooked. Learn how to reclaim your attention and turn scrolling into intentional use.",
+    author: "QYD Team",
+    date: "September 2025",
+    readTime: "6 min read",
+    category: "Science"
+  },
+  {
     id: 5,
     title: "The 7-Day App Cleanse: Reset Your Home Screen (and Your Head)",
     excerpt: "A one-week app cleanse to cut screen time without going off-grid: delete the time-sinks, reset notifications, and rebuild a calmer home screen.",
