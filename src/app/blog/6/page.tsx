@@ -164,7 +164,7 @@ export default function BlogPost6() {
           <div className="text-sm text-stone space-y-2 mb-8">
             <p>1. Skinner, B. F. (1953). Science and Human Behavior. Free Press.</p>
             <p>2. Mark, G. (2023). <a href="/api/amazon?asin=1335449418" target="_blank" rel="noopener sponsored" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity</a>. Hanover Square Press.</p>
-            <p>3. DataReportal. (2025). Digital 2025: Global Digital Overview. <a href="https://datareportal.com/reports/digital-2025-global-overview" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">https://datareportal.com/reports/digital-2025-global-overview</a></p>
+            <p>3. DataReportal. (2025). Digital 2025: Global Digital Overview. <a href="https://datareportal.com/reports/?tag=Digital+2025" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">https://datareportal.com/reports/?tag=Digital+2025</a></p>
           </div>
         </div>
 
