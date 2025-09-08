@@ -69,8 +69,11 @@ export default function Resources() {
                   <h3 className="text-xl font-bold text-fern mb-2">
                     Digital Minimalism by <a href="https://calnewport.com/" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">Cal Newport</a>
                   </h3>
+                  <p className="text-stone mb-1 font-semibold">
+                    For when your phone feels too loud.
+                  </p>
                   <p className="text-stone mb-4">
-                    Clear framework for reducing digital noise without going off-grid. Newport provides a philosophy for living with intention in a noisy world.
+                    This book changed how I think about technology. Newport doesn&apos;t suggest going off-grid — instead, he gives a clear framework for choosing what truly matters and cutting the rest. If you&apos;ve ever wished for more focus and less noise, this is your playbook.
                   </p>
                   <a 
                     href="/api/amazon?asin=0525536515" 
@@ -101,8 +104,11 @@ export default function Resources() {
                   <h3 className="text-xl font-bold text-fern mb-2">
                     How to Break Up with Your Phone by <a href="https://catherineprice.com/about" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">Catherine Price</a>
                   </h3>
+                  <p className="text-stone mb-1 font-semibold">
+                    For when you&apos;re ready to reset.
+                  </p>
                   <p className="text-stone mb-4">
-                    30-day plan with science-backed tactics to reclaim attention. Includes concrete strategies and the science behind smartphone dependency.
+                    This isn&apos;t just a book — it&apos;s a 30-day plan with simple, science-backed steps to reclaim your attention. Catherine Price combines relatable stories with practical strategies, so by the end you don&apos;t just &ldquo;use your phone less&rdquo; — you actually feel freer.
                   </p>
                   <a 
                     href="/api/amazon?asin=0593837169" 
@@ -133,8 +139,11 @@ export default function Resources() {
                   <h3 className="text-xl font-bold text-fern mb-2">
                     The Tech-Wise Family by <a href="https://andy-crouch.com/" target="_blank" rel="noopener" className="text-fern hover:text-green-800 underline decoration-1 underline-offset-2 transition-colors">Andy Crouch</a>
                   </h3>
+                  <p className="text-stone mb-1 font-semibold">
+                    For when screens are taking over family time.
+                  </p>
                   <p className="text-stone mb-4">
-                    Practical guardrails for healthier family tech habits. Focuses on building character and wisdom in the digital age.
+                    Crouch offers practical, doable guardrails for raising kids (and parenting ourselves) in a screen-filled world. It&apos;s about building character and connection, not just limiting screen hours. If you&apos;ve wondered how to create healthier tech rhythms at home, this book is a great guide.
                   </p>
                   <a 
                     href="/api/amazon?asin=0801018668" 
