@@ -15,134 +15,162 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">
             Break free from digital overwhelm. Rediscover presence, connection, and joy in the real world.
-          </p>          <Link 
-            href="/challenge"
-            className="bg-gold hover:bg-gold/90 text-stone px-8 py-4 rounded-full text-lg font-semibold transition-colors shadow-lg inline-block"
-          >
-            Start Your Journey
-          </Link>
-        </div>
-      </section>      {/* Why It Matters Section */}
-      <section className="bg-beige py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-fern text-center mb-12">
-            Why It Matters
-          </h2>
-          <div className="text-center max-w-3xl mx-auto">            <p className="text-lg text-stone mb-8 leading-relaxed">
-              We live in a world of constant notifications, endless feeds, and always-on communication. It&apos;s easy to feel overwhelmed, anxious, or simply burnt out from being &ldquo;on&rdquo; all the time. The average person taps their phone over 2,600 times per day — and most of us don&apos;t even realize it.
-            </p>
-            
-            <div className="text-left bg-white p-8 rounded-xl shadow-sm mb-8">
-              <p className="text-lg text-stone mb-6">If you&apos;ve ever:</p>
-              <ul className="space-y-4 text-stone">
-                <li className="flex items-start">
-                  <span className="text-fern mr-3">•</span>
-                  Checked your phone and forgotten why you picked it up
-                </li>
-                <li className="flex items-start">
-                  <span className="text-fern mr-3">•</span>
-                  Felt phantom vibrations
-                </li>
-                <li className="flex items-start">
-                  <span className="text-fern mr-3">•</span>
-                  Opened apps on autopilot
-                </li>                <li className="flex items-start">
-                  <span className="text-fern mr-3">•</span>
-                  Felt anxious when your phone isn&apos;t nearby
-                </li>
-              </ul>
-            </div>
-            
-            <p className="text-xl text-fern font-semibold">...you&apos;re not alone.</p>
+          </p>
+          
+          {/* CTAs */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link 
+              href="/blog/6"
+              className="bg-gold hover:bg-gold/90 text-stone px-8 py-4 rounded-full text-lg font-semibold transition-colors shadow-lg inline-block"
+            >
+              Read the Latest Insight
+            </Link>
+            <Link 
+              href="/resources"
+              className="border-2 border-white/70 hover:border-white text-white hover:bg-white/10 px-8 py-4 rounded-full text-lg font-semibold transition-colors inline-block"
+            >
+              Start Your Journey
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* How We Help Section */}
+      {/* Featured Insight Section */}
       <section className="bg-white py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-fern text-center mb-12">
-            🌱 How We Help
-          </h2>
-          <div className="text-center max-w-3xl mx-auto">
-            <p className="text-lg text-stone mb-8 leading-relaxed">
-              This site offers:
-            </p>
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-fern mb-4">
+              This Week&apos;s Insight
+            </h2>
+          </div>
+          
+          <div className="grid md:grid-cols-5 gap-8 items-center">
+            {/* Image */}
+            <div className="md:col-span-2">
+              <img 
+                src="/images/Insights-blog-post6-scrolling.png" 
+                alt="Social media infinite scroll illustration"
+                className="w-full h-80 md:h-96 object-cover rounded-xl shadow-lg"
+              />
+            </div>
             
-            <div className="grid md:grid-cols-1 gap-6 text-left">
-              <div className="bg-mist p-6 rounded-xl">
-                <ul className="space-y-4 text-stone">
-                  <li className="flex items-start">
-                    <span className="text-fern mr-3 text-xl">•</span>
-                    <span>Practical steps to take control of your screen time</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-fern mr-3 text-xl">•</span>
-                    <span>Expert-backed advice on building healthier digital habits</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-fern mr-3 text-xl">•</span>
-                    <span>Mental health support through recommended tools and resources</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-fern mr-3 text-xl">•</span>
-                    <span>Challenges that help you detox, one day at a time</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-fern mr-3 text-xl">•</span>
-                    <span>A community of people just like you, trying to unplug and reconnect with what really matters</span>
-                  </li>
-                </ul>
+            {/* Content */}
+            <div className="md:col-span-3">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="bg-mist text-sage px-3 py-1 rounded-full text-sm font-medium">Science</span>
+                <span className="text-stone text-sm">September 2025</span>
+                <span className="text-stone text-sm">6 min read</span>
+              </div>
+              
+              <h3 className="text-2xl md:text-3xl font-bold text-fern mb-4">
+                The Social Scroll Trap: How Infinite Feeds Hijack Your Mind
+              </h3>
+              
+              <p className="text-lg text-stone mb-6 leading-relaxed max-w-2xl">
+                Infinite scroll and autoplay weren&apos;t accidents — they were engineered to keep you hooked. Learn how to reclaim your attention and turn scrolling into intentional use.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link 
+                  href="/blog/6"
+                  className="bg-gold hover:bg-gold/90 text-stone px-6 py-3 rounded-full font-semibold transition-colors inline-block text-center"
+                >
+                  Read More →
+                </Link>
+                <Link 
+                  href="#newsletter"
+                  className="text-sage hover:text-fern font-medium transition-colors inline-block text-center"
+                >
+                  Subscribe to Weekly Insights
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Tools Section */}
+      {/* Why It Matters Section */}
+      <section className="bg-beige py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-fern text-center mb-12">
+            Why It Matters
+          </h2>
+          <div className="text-center max-w-3xl mx-auto">
+            <p className="text-lg text-stone mb-8 leading-relaxed">
+              We live in a world of constant notifications, endless feeds, and always-on communication. It&apos;s easy to feel overwhelmed, anxious, or simply burnt out from being &ldquo;on&rdquo; all the time.
+            </p>
+            
+            <p className="text-xl text-fern font-bold">
+              You can reset. Gently.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* How We Help Section */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-fern text-center mb-12">
-            Simple Tools for Digital Wellness
+            How We Help
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
+            {/* Insights */}
             <div className="bg-mist p-8 rounded-xl">
-              <h3 className="text-xl font-semibold text-fern mb-4">Mindful Breaks</h3>              <p className="text-stone mb-4">
-                Gentle reminders to pause, breathe, and reconnect with the present moment.
+              <h3 className="text-xl md:text-2xl font-bold text-fern mb-4">Insights</h3>
+              <p className="text-stone mb-6">
+                Research-backed articles and stories to help you understand the psychology behind digital habits and find your path to balance.
               </p>
-              <Link href="/resources" className="text-sage hover:text-fern font-medium transition-colors">
-                Learn More →
+              <Link 
+                href="/blog" 
+                className="text-sage hover:text-fern font-medium transition-colors"
+              >
+                Read Articles →
               </Link>
             </div>
+            
+            {/* 7-Day Reset */}
             <div className="bg-mist p-8 rounded-xl">
-              <h3 className="text-xl font-semibold text-fern mb-4">Phone-Free Zones</h3>              <p className="text-stone mb-4">
-                Create sacred spaces in your home where devices take a back seat to life.
+              <h3 className="text-xl md:text-2xl font-bold text-fern mb-4">7-Day Reset</h3>
+              <p className="text-stone mb-6">
+                A gentle one-week experiment to help you reset your relationship with technology and rediscover what matters most.
               </p>
-              <Link href="/resources" className="text-sage hover:text-fern font-medium transition-colors">
-                Learn More →
+              <Link 
+                href="/challenge" 
+                className="text-sage hover:text-fern font-medium transition-colors"
+              >
+                Try the Reset →
               </Link>
             </div>
+            
+            {/* Resources */}
             <div className="bg-mist p-8 rounded-xl">
-              <h3 className="text-xl font-semibold text-fern mb-4">Intentional Usage</h3>              <p className="text-stone mb-4">
-                Develop awareness around when and why you reach for your device.
+              <h3 className="text-xl md:text-2xl font-bold text-fern mb-4">Resources</h3>
+              <p className="text-stone mb-6">
+                Curated books, apps, and tools recommended by experts to support your digital wellness journey.
               </p>
-              <Link href="/resources" className="text-sage hover:text-fern font-medium transition-colors">
-                Learn More →
+              <Link 
+                href="/resources" 
+                className="text-sage hover:text-fern font-medium transition-colors"
+              >
+                Explore Tools →
               </Link>
             </div>
           </div>
         </div>
       </section>      {/* Challenge CTA Section */}
       <section className="bg-fern py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">          <h2 className="text-3xl md:text-4xl font-bold text-beige mb-6">
-            Ready to Begin?
-          </h2>          <p className="text-xl text-beige mb-8 max-w-2xl mx-auto">
-            Join thousands who&apos;ve discovered the freedom of a more intentional relationship with technology.
-          </p><Link 
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-beige mb-6">
+            Ready to Try the 7-Day Reset?
+          </h2>
+          <p className="text-xl text-beige mb-8 max-w-2xl mx-auto">
+            A gentle experiment to help you rediscover balance with technology.
+          </p>
+          <Link 
             href="/challenge"
             className="bg-gold hover:bg-gold/90 text-stone px-8 py-4 rounded-full text-lg font-semibold transition-colors shadow-lg inline-block"
           >
-            Start 7-Day Challenge
+            Start the 7-Day Reset
           </Link>
         </div>
       </section>
@@ -152,23 +180,15 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-fern mb-4">
-              📧 Stay Connected
+              📧 Subscribe to Weekly Insights
             </h2>
             <p className="text-xl text-stone max-w-2xl mx-auto">
-              Get weekly insights, practical tips, and gentle reminders delivered to your inbox. 
-              No spam, just thoughtful content to support your digital wellness journey.
+              One email a week with a fresh insight, a gentle challenge, and a practical tool to try. No spam.
             </p>
           </div>
           
           <div className="max-w-2xl mx-auto">
             <div className="bg-mist p-8 rounded-xl text-center">
-              <h3 className="text-2xl font-semibold text-fern mb-4">
-                Join Our Community
-              </h3>
-              <p className="text-stone mb-6">
-                Weekly digital wellness tips, new insights, and exclusive content from the QYD team.
-              </p>
-              
               {/* Newsletter Signup Form */}
               <NewsletterForm />
               
