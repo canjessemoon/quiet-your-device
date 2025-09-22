@@ -579,12 +579,12 @@ export default async function BlogPost({ params }: BlogPostProps) {
       <main className="bg-beige min-h-screen py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold text-fern mb-6">Post Not Found</h1>
-          <p className="text-stone mb-8">Sorry, we couldn&apos;t find the blog post you&apos;re looking for.</p>
+          <p className="text-stone mb-8">Sorry, we couldn&apos;t find the insight you&apos;re looking for.</p>
           <Link 
             href="/blog"
             className="bg-fern hover:bg-fern/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
           >
-            Back to Blog
+            Back to Insights
           </Link>
         </div>
       </main>
@@ -636,7 +636,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
               href="/blog"
               className="text-sage hover:text-fern font-medium transition-colors flex items-center gap-2 mb-6"
             >
-              ← Back to Blog
+              ← Back to Insights
             </Link>
             
             <div className="flex items-center gap-4 mb-6">

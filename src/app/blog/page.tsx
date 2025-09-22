@@ -101,7 +101,7 @@ export default function BlogPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-fern mb-4">
-              📝 Latest from Our Blog
+              📝 Latest Insights
             </h2>
             <p className="text-lg text-stone max-w-2xl mx-auto">
               Expert insights, research-backed strategies, and practical guidance for your digital wellness journey.
@@ -150,7 +150,7 @@ export default function BlogPage() {
             Stay Updated
           </h2>
           <p className="text-xl text-beige/90 mb-8 max-w-2xl mx-auto">
-            Get our latest blog posts and digital wellness tips delivered to your inbox.
+            Get our latest insights and digital wellness tips delivered to your inbox.
           </p>
           <Link 
             href="/#newsletter"

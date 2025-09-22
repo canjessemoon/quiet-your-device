@@ -26,10 +26,10 @@ export default function Header() {
               Home
             </Link>
             <Link 
-              href="/resources" 
+              href="/blog" 
               className="text-stone hover:text-fern transition-colors duration-200 font-medium"
             >
-              Resources
+              Insights
             </Link>
             <Link 
               href="/challenge" 
@@ -38,16 +38,16 @@ export default function Header() {
               Challenge
             </Link>
             <Link 
+              href="/resources" 
+              className="text-stone hover:text-fern transition-colors duration-200 font-medium"
+            >
+              Resources
+            </Link>
+            <Link 
               href="/about" 
               className="text-stone hover:text-fern transition-colors duration-200 font-medium"
             >
               About
-            </Link>
-            <Link 
-              href="/blog" 
-              className="text-stone hover:text-fern transition-colors duration-200 font-medium"
-            >
-              Blog
             </Link>
           </nav>
           
@@ -83,12 +83,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </Link>              <Link 
-                href="/resources" 
+              </Link>              
+              <Link 
+                href="/blog" 
                 className="text-stone hover:text-fern transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Resources
+                Insights
               </Link>
               <Link 
                 href="/challenge" 
@@ -98,18 +99,18 @@ export default function Header() {
                 Challenge
               </Link>
               <Link 
+                href="/resources" 
+                className="text-stone hover:text-fern transition-colors duration-200 font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Resources
+              </Link>
+              <Link 
                 href="/about" 
                 className="text-stone hover:text-fern transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
-              </Link>
-              <Link 
-                href="/blog" 
-                className="text-stone hover:text-fern transition-colors duration-200 font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Blog
               </Link>
               <Link 
                 href="/challenge"

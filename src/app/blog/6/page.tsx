@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "The Social Scroll Trap: How Infinite Feeds Hijack Your Mind | QYD Blog",
+  title: "The Social Scroll Trap: How Infinite Feeds Hijack Your Mind | QYD Insights",
   description: "Infinite scroll and autoplay weren't accidents — they were engineered to keep you hooked. Learn how to reclaim your attention and turn scrolling into intentional use.",
   alternates: {
     canonical: 'https://quietyourdevice.com/blog/6',
@@ -29,7 +29,7 @@ export default function BlogPost6() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <nav className="text-sm">
           <Link href="/blog" className="text-stone hover:text-fern transition-colors">
-            ← Back to Blog
+            ← Back to Insights
           </Link>
         </nav>
       </div>
@@ -175,7 +175,7 @@ export default function BlogPost6() {
               href="/blog" 
               className="inline-flex items-center gap-2 text-fern hover:text-green-800 transition-colors"
             >
-              ← Back to Blog
+              ← Back to Insights
             </Link>
             <Link 
               href="/challenge" 

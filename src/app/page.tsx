@@ -166,7 +166,7 @@ export default function Home() {
                 Join Our Community
               </h3>
               <p className="text-stone mb-6">
-                Weekly digital wellness tips, new blog posts, and exclusive insights from the QYD team.
+                Weekly digital wellness tips, new insights, and exclusive content from the QYD team.
               </p>
               
               {/* Newsletter Signup Form */}
