@@ -57,7 +57,7 @@ export default function BlogPost7() {
           <img 
             src="/images/onedayoff-herolist.png" 
             alt="One Day Off digital detox checklist and planning illustration"
-            className="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg"
+            className="w-full rounded-xl shadow-lg"
           />
         </div>
 

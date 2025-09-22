@@ -12,7 +12,8 @@ const blogPosts = [
     author: "QYD Team",
     date: "October 2025",
     readTime: "7 min read",
-    category: "Research"
+    category: "Research",
+    heroImage: "/images/onedayoff-herolist.png"
   },
   {
     id: 6,
@@ -21,7 +22,8 @@ const blogPosts = [
     author: "QYD Team",
     date: "September 2025",
     readTime: "6 min read",
-    category: "Science"
+    category: "Science",
+    heroImage: "/images/Insights-blog-post6-scrolling.png"
   },
   {
     id: 5,
@@ -30,7 +32,8 @@ const blogPosts = [
     author: "QYD Team",
     date: "August 29, 2025",
     readTime: "8 min read",
-    category: "Practical Tips"
+    category: "Practical Tips",
+    heroImage: "/images/blogpost5.png"
   },
   {
     id: 4,
@@ -39,7 +42,8 @@ const blogPosts = [
     author: "QYD Team",
     date: "June 25, 2025",
     readTime: "4 min read",
-    category: "Mindfulness"
+    category: "Mindfulness",
+    heroImage: "/images/blogpost4.png"
   },
   {
     id: 1,
@@ -48,7 +52,8 @@ const blogPosts = [
     author: "QYD Team",
     date: "May 28, 2025",
     readTime: "5 min read",
-    category: "Mindfulness"
+    category: "Mindfulness",
+    heroImage: "/images/blogpost1.png"
   },
   {
     id: 2,
@@ -57,7 +62,8 @@ const blogPosts = [
     author: "QYD Team", 
     date: "May 25, 2025",
     readTime: "7 min read",
-    category: "Science"
+    category: "Science",
+    heroImage: "/images/man-phone-down.png"
   },
   {
     id: 3,
@@ -66,7 +72,8 @@ const blogPosts = [
     author: "QYD Team",
     date: "May 20, 2025", 
     readTime: "4 min read",
-    category: "Practical Tips"
+    category: "Practical Tips",
+    heroImage: "/images/Room-blog-3.png"
   }
 ];
 
@@ -115,35 +122,48 @@ export default function BlogPage() {
             <p className="text-lg text-stone max-w-2xl mx-auto">
               Expert insights, research-backed strategies, and practical guidance for your digital wellness journey.
             </p>
-          </div>          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          </div>          <div className="space-y-8">
             {blogPosts.map((post) => (
               <Link key={post.id} href={`/blog/${post.id}`} className="block">
-                <article className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden h-full cursor-pointer">
-                  <div className="p-6">
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="inline-block bg-mist text-fern text-sm px-3 py-1 rounded-full font-medium">
-                        {post.category}
-                      </span>
-                      <span className="text-sage text-sm">{post.readTime}</span>
+                <article className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden cursor-pointer">
+                  <div className="grid md:grid-cols-3 gap-6 p-6">
+                    {/* Hero Image */}
+                    <div className="md:col-span-1">
+                      <img 
+                        src={post.heroImage} 
+                        alt={`${post.title} hero image`}
+                        className="w-full h-48 md:h-40 object-cover rounded-lg"
+                      />
                     </div>
                     
-                    <h3 className="text-xl font-semibold text-fern mb-3 leading-tight">
-                      {post.title}
-                    </h3>
-                    
-                    <p className="text-stone mb-4 leading-relaxed">
-                      {post.excerpt}
-                    </p>
-                    
-                    <div className="flex items-center justify-between">
-                      <div className="text-sm text-sage">
-                        <span className="font-medium">{post.author}</span>
-                        <span className="mx-2">•</span>
-                        <span>{post.date}</span>
+                    {/* Content */}
+                    <div className="md:col-span-2">
+                      <div className="flex items-center justify-between mb-3">
+                        <div className="flex items-center gap-3">
+                          <span className="inline-block bg-mist text-fern text-sm px-3 py-1 rounded-full font-medium">
+                            {post.category}
+                          </span>
+                          <span className="text-sage text-sm">{post.readTime}</span>
+                        </div>
+                        <span className="text-sage text-sm">{post.date}</span>
                       </div>
-                      <span className="text-fern hover:text-sage font-medium text-sm transition-colors">
-                        Read More →
-                      </span>
+                      
+                      <h3 className="text-xl md:text-2xl font-semibold text-fern mb-3 leading-tight">
+                        {post.title}
+                      </h3>
+                      
+                      <p className="text-stone mb-4 leading-relaxed">
+                        {post.excerpt}
+                      </p>
+                      
+                      <div className="flex items-center justify-between">
+                        <div className="text-sm text-sage">
+                          <span className="font-medium">{post.author}</span>
+                        </div>
+                        <span className="text-fern hover:text-sage font-medium text-sm transition-colors">
+                          Read More →
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </article>

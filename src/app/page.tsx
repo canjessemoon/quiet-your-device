@@ -20,7 +20,7 @@ export default function Home() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link 
-              href="/blog/6"
+              href="/blog/7"
               className="bg-gold hover:bg-gold/90 text-stone px-8 py-4 rounded-full text-lg font-semibold transition-colors shadow-lg inline-block"
             >
               Read the Latest Insight
