@@ -52,6 +52,15 @@ export default function BlogPost6() {
           </div>
         </header>
 
+        {/* Featured Image */}
+        <div className="mb-12">
+          <img 
+            src="/images/Insights-blog-post6-scrolling.png" 
+            alt="Social media infinite scroll illustration showing endless feeds and user engagement"
+            className="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg"
+          />
+        </div>
+
         {/* TL;DR */}
         <div className="bg-mist border-l-4 border-fern p-6 mb-8">
           <h2 className="text-lg font-semibold text-fern mb-3">TL;DR</h2>
