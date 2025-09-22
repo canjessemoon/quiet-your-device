@@ -48,8 +48,8 @@ export default function Home() {
             {/* Image */}
             <div className="md:col-span-2">
               <img 
-                src="/images/Insights-blog-post6-scrolling.png" 
-                alt="Social media infinite scroll illustration"
+                src="/images/onedayoff-herolist.png" 
+                alt="One Day Off digital detox checklist and planning illustration"
                 className="w-full h-80 md:h-96 object-cover rounded-xl shadow-lg"
               />
             </div>
@@ -57,22 +57,22 @@ export default function Home() {
             {/* Content */}
             <div className="md:col-span-3">
               <div className="flex items-center gap-3 mb-4">
-                <span className="bg-mist text-sage px-3 py-1 rounded-full text-sm font-medium">Science</span>
-                <span className="text-stone text-sm">September 2025</span>
-                <span className="text-stone text-sm">6 min read</span>
+                <span className="bg-mist text-sage px-3 py-1 rounded-full text-sm font-medium">Research</span>
+                <span className="text-stone text-sm">October 2025</span>
+                <span className="text-stone text-sm">7 min read</span>
               </div>
               
               <h3 className="text-2xl md:text-3xl font-bold text-fern mb-4">
-                The Social Scroll Trap: How Infinite Feeds Hijack Your Mind
+                One Day Off: How a Weekly Digital Reset Restores Your Brain
               </h3>
               
               <p className="text-lg text-stone mb-6 leading-relaxed max-w-2xl">
-                Infinite scroll and autoplay weren&apos;t accidents — they were engineered to keep you hooked. Learn how to reclaim your attention and turn scrolling into intentional use.
+                Taking one day off from screens each week gives your mind and body a reset. Research shows regular disconnection improves mood, focus, sleep, and relationships.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/blog/6"
+                  href="/blog/7"
                   className="bg-gold hover:bg-gold/90 text-stone px-6 py-3 rounded-full font-semibold transition-colors inline-block text-center"
                 >
                   Read More →

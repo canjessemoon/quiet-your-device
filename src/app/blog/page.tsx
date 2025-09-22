@@ -6,6 +6,15 @@ import Link from 'next/link';
 // Sample blog posts data (sorted newest first)
 const blogPosts = [
   {
+    id: 7,
+    title: "One Day Off: How a Weekly Digital Reset Restores Your Brain",
+    excerpt: "Taking one day off from screens each week gives your mind and body a reset. Research shows regular disconnection improves mood, focus, sleep, and relationships.",
+    author: "QYD Team",
+    date: "October 2025",
+    readTime: "7 min read",
+    category: "Research"
+  },
+  {
     id: 6,
     title: "The Social Scroll Trap: How Infinite Feeds Hijack Your Mind",
     excerpt: "Infinite scroll and autoplay weren't accidents — they were engineered to keep you hooked. Learn how to reclaim your attention and turn scrolling into intentional use.",
@@ -226,7 +235,7 @@ export default function BlogPage() {
       <section className="py-8 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-sm text-gray-500">
-            Last Updated: September 7, 2025
+            Last Updated: September 22, 2025
           </p>
         </div>
       </section>
